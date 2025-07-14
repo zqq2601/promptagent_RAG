@@ -1,0 +1,986 @@
+CVE-2023-2387, A vulnerability classified as problematic was found in Netgear SRX5308 up to 4.3.5-3. Affected by this vulnerability is an unknown functionality of the file scgi-bin/platform.cgi?page=dmz_setup.htm of the component Web Management Interface. The manipulation of the argument winsServer1 leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227665 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2738, A vulnerability classified as critical has been found in Tongda OA 11.10. This affects the function actionGetdata of the file GatewayController.php. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-229149 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2368, A vulnerability was found in SourceCodester Faculty Evaluation System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file index.php?page=manage_questionnaire. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227644.
+
+CVE-2023-2692, A vulnerability has been found in SourceCodester ICT Laboratory Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file views/room_info.php of the component GET Parameter Handler. The manipulation of the argument name leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-228973 was assigned to this vulnerability.
+
+CVE-2023-2942, Improper Input Validation in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2041, A vulnerability classified as critical was found in novel-plus 3.6.2. Affected by this vulnerability is an unknown functionality of the file /category/list?limit=10&offset=0&order=desc. The manipulation of the argument sort leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-225919. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2411, A vulnerability was found in SourceCodester AC Repair and Services System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/inquiries/view_inquiry.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227705 was assigned to this vulnerability.
+
+CVE-2023-2104, Improper Access Control in GitHub repository alextselegidis/easyappointments prior to 1.5.0.
+
+CVE-2023-2554, External Control of File Name or Path in GitHub repository unilogies/bumsys prior to 2.2.0.
+
+CVE-2023-2807, Authentication Bypass by Spoofing vulnerability in the password reset process of Pandora FMS allows an unauthenticated attacker to initiate a password reset process for any user account without proper authentication. This issue affects PandoraFMS v771 and prior versions on all platforms.
+
+CVE-2023-2780, Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.3.1.
+
+CVE-2023-2295, A vulnerability was found in the libreswan library. This security issue occurs when an IKEv1 Aggressive Mode packet is received with only unacceptable crypto algorithms, and the response packet is not sent with a zero responder SPI. When a subsequent packet is received where the sender reuses the libreswan responder SPI as its own initiator SPI, the pluto daemon state machine crashes. No remote code execution is possible. This CVE exists because of a CVE-2023-30570 security regression for libreswan package in Red Hat Enterprise Linux 8.8 and Red Hat Enterprise Linux 9.2.
+
+CVE-2023-2446, The UserPro plugin for WordPress is vulnerable to sensitive information disclosure via the 'userpro' shortcode in versions up to, and including 5.1.1. This is due to insufficient restriction on sensitive user meta values that can be called via that shortcode. This makes it possible for authenticated attackers, with subscriber-level permissions, and above to retrieve sensitive user meta that can be used to gain access to a high privileged user account.
+
+CVE-2023-2915, The Rockwell Automation Thinmanager Thinserver is impacted by an improper input validation vulnerability, Due to improper input validation, a path traversal vulnerability exists when the ThinManager software processes a certain function. If exploited, an unauthenticated remote threat actor can delete arbitrary files with system privileges.   A malicious user could exploit this vulnerability by sending a specifically crafted synchronization protocol message resulting in a denial-of-service condition.
+
+CVE-2023-2850, NodeBB is affected by a Cross-Site WebSocket Hijacking vulnerability due to missing validation of the request origin. Exploitation of this vulnerability allows certain user information to be extracted by attacker.
+
+CVE-2023-2503, The 10Web Social Post Feed WordPress plugin before 1.2.9 does not sanitise and escape some parameter before outputting it back in a page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2153, A vulnerability was found in SourceCodester Complaint Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file admin/assets/plugins/DataTables/examples/examples_support/editable_ajax.php of the component POST Parameter Handler. The manipulation of the argument value with the input 1><script>alert(666)</script> leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-226274 is the identifier assigned to this vulnerability.
+
+CVE-2023-2796, The EventON WordPress plugin before 2.1.2 lacks authentication and authorization in its eventon_ics_download ajax action, allowing unauthenticated visitors to access private and password protected Events by guessing their numeric id.
+
+CVE-2023-2779, The Social Share, Social Login and Social Comments WordPress plugin before 7.13.52 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
+
+CVE-2023-2283, A vulnerability was found in libssh, where the authentication check of the connecting client can be bypassed in the`pki_verify_data_signature` function in memory allocation problems. This issue may happen if there is insufficient memory or the memory usage is limited. The problem is caused by the return value `rc,` which is initialized to SSH_ERROR and later rewritten to save the return value of the function call `pki_key_check_hash_compatible.` The value of the variable is not changed between this point and the cryptographic verification. Therefore any error between them calls `goto error` returning SSH_OK.
+
+CVE-2023-2329, The WooCommerce Google Sheet Connector WordPress plugin before 1.3.6 does not have CSRF check when updating its Access Code, which could allow attackers to make logged in admin change the access code to an arbitrary one via a CSRF attack
+
+CVE-2023-2903, A vulnerability classified as problematic has been found in NFine Rapid Development Platform 20230511. This affects an unknown part of the file /SystemManage/Role/GetGridJson?keyword=&page=1&rows=20. The manipulation leads to improper access controls. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-229977 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2000, Mattermost Desktop App fails to validate a mattermost server redirection and navigates to an arbitrary website
+
+CVE-2023-2450, The FiboSearch - AJAX Search for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in versions up to, and including, 1.23.0  due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+
+CVE-2023-2145, A vulnerability was found in Campcodes Online Thesis Archiving System 1.0. It has been classified as critical. Affected is an unknown function of the file projects_per_curriculum.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-226266 is the identifier assigned to this vulnerability.
+
+CVE-2023-2515, Mattermost fails to restrict a user with permissions to edit other users and to create personal access tokens from elevating their privileges to system admin
+
+CVE-2023-2846, Authentication Bypass by Capture-replay vulnerability in Mitsubishi Electric Corporation MELSEC iQ-F Series main modules allows a remote unauthenticated attacker to cancel the password/keyword setting and login to the affected products by sending specially crafted packets.
+
+CVE-2023-2391, A vulnerability was found in Netgear SRX5308 up to 4.3.5-3 and classified as problematic. This issue affects some unknown processing of the file scgi-bin/platform.cgi?page=time_zone.htm of the component Web Management Interface. The manipulation of the argument ntp.server2 leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227669 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2684, The File Renaming on Upload WordPress plugin before 2.5.2 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+
+CVE-2023-2407, The Event Registration Calendar By vcita plugin, versions up to and including 3.9.1, and Online Payments – Get Paid with PayPal, Square & Stripe plugin, for WordPress are vulnerable to Cross-Site Request Forgery. This is due to missing nonce validation in the ls_parse_vcita_callback() function. This makes it possible for unauthenticated attackers to modify the plugin's settings and inject malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2057, A vulnerability was found in EyouCms 1.5.4. It has been classified as problematic. Affected is an unknown function of the file login.php?m=admin&c=Arctype&a=edit of the component New Picture Handler. The manipulation of the argument litpic_loca leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-225942 is the identifier assigned to this vulnerability.
+
+CVE-2023-2954, Cross-site Scripting (XSS) - Stored in GitHub repository liangliangyy/djangoblog prior to master.
+
+CVE-2023-2811, The AI ChatBot WordPress plugin before 4.5.6 does not sanitise and escape numerous of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks to all admin when setting chatbot and all client when using chatbot
+
+CVE-2023-2112, Desktop component service allows lateral movement between sessions in M-Files before 23.4.12455.0.
+
+CVE-2023-2305, The Download Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'wpdm_members', 'wpdm_login_form', 'wpdm_reg_form' shortcodes in versions up to, and including, 3.2.70 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2240, Improper Privilege Management in GitHub repository microweber/microweber prior to 1.3.4.
+
+CVE-2023-2610, Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1532.
+
+CVE-2023-2169, The TaxoPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Related Posts functionality in versions up to, and including, 3.6.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with Editor+ permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2493, The All In One Redirection WordPress plugin before 2.2.0 does not properly sanitise and escape multiple parameters before using them in an SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
+
+CVE-2023-2186, On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send a specially crafted broadcast message including format string characters to the SCADA Data Gateway to perform unrestricted memory reads.An unauthenticated user can use this format string vulnerability to repeatedly crash the GTWWebMonitor.exe process to DoS the Web Monitor.  Furthermore, an authenticated user can leverage this vulnerability to leak memory from the GTWWebMonitor.exe process. This could be leveraged in an exploit chain to gain code execution.
+
+CVE-2023-2885, Improper Enforcement of Message Integrity During Transmission in a Communication Channel vulnerability in CBOT Chatbot allows Adversary in the Middle (AiTM).This issue affects Chatbot: before Core: v4.0.3.4 Panel: v4.0.3.7.
+
+CVE-2023-2702, Authorization Bypass Through User-Controlled Key vulnerability in Finex Media Competition Management System allows Authentication Abuse, Authentication Bypass.This issue affects Competition Management System: before 23.07.
+
+CVE-2023-2352, The CHP Ads Block Detector plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.9.4. This is due to missing or incorrect nonce validation on the chp_abd_action function. This makes it possible for unauthenticated attackers to update or reset plugin settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2647, A vulnerability was found in Weaver E-Office 9.5 and classified as critical. Affected by this issue is some unknown functionality of the file /webroot/inc/utility_all.php of the component File Upload Handler. The manipulation leads to command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-228776. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2217, A vulnerability, which was classified as critical, was found in SourceCodester Task Reminder System 1.0. This affects an unknown part of the file /admin/reminders/manage_reminder.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226983.
+
+CVE-2023-2094, A vulnerability has been found in SourceCodester Vehicle Service Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/mechanics/manage_mechanic.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-226102 is the identifier assigned to this vulnerability.
+
+CVE-2023-2978, A vulnerability was found in Abstrium Pydio Cells 4.2.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the component Change Subscription Handler. The manipulation leads to authorization bypass. The exploit has been disclosed to the public and may be used. Upgrading to version 4.2.1 is able to address this issue. It is recommended to upgrade the affected component. VDB-230210 is the identifier assigned to this vulnerability.
+
+CVE-2023-2344, A vulnerability has been found in SourceCodester Service Provider Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /classes/Master.php?f=save_service of the component HTTP POST Request Handler. The manipulation of the argument name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227587.
+
+CVE-2023-2714, The Groundhogg plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'check_license' functions in versions up to, and including, 2.7.9.8. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to change the license key and support license key, but it can only be changed to a valid license key.
+
+CVE-2023-2201, The Web Directory Free for WordPress is vulnerable to SQL Injection via the ‘post_id’ parameter in versions up to, and including, 1.6.7  due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers with contributor-level privileges to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+CVE-2023-2981, A vulnerability, which was classified as problematic, has been found in Abstrium Pydio Cells 4.2.0. This issue affects some unknown processing of the component Chat. The manipulation leads to basic cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.2.1 is able to address this issue. It is recommended to upgrade the affected component. The identifier VDB-230213 was assigned to this vulnerability.
+
+CVE-2023-2578, The Buy Me a Coffee WordPress plugin before 3.7 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2082, The "Buy Me a Coffee – Button and Widget Plugin" plugin for WordPress is vulnerable to Cross-Site Scripting in versions up to, and including, 3.6 due to insufficient sanitization and escaping on the 'text value set via the bmc_post_reception action. This makes it possible for authenticated attackers, with subscriber-level permissions, and above to inject arbitrary web scripts into pages that execute whenever a victim accesses a page with the injected scripts.
+
+CVE-2023-2597, In Eclipse Openj9 before version 0.38.0, in the implementation of the shared cache (which is enabled by default in OpenJ9 builds) the size of a string is not properly checked against the size of the buffer.
+
+CVE-2023-2743, The ERP WordPress plugin before 1.12.4 does not sanitise and escape the employee_name parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
+
+CVE-2023-2313, Inappropriate implementation in Sandbox in Google Chrome on Windows prior to 112.0.5615.49 allowed a remote attacker who had compromised the renderer process to perform arbitrary read/write via a malicious file. (Chromium security severity: High)
+
+CVE-2023-2606, The WP Brutal AI WordPress plugin before 2.06 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2256, The Product Addons & Fields for WooCommerce WordPress plugin before 32.0.7 does not sanitize and escape some URL parameters, leading to Reflected Cross-Site Scripting.
+
+CVE-2023-2485, An issue has been discovered in GitLab CE/EE affecting all versions starting from 14.1 before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. A malicious maintainer in a project can escalate other users to Owners in that project if they import members from another project that those other users are Owners of.
+
+CVE-2023-2939, Insufficient data validation in Installer in Google Chrome on Windows prior to 114.0.5735.90 allowed a local attacker to perform privilege escalation via crafted symbolic link. (Chromium security severity: Medium)
+
+CVE-2023-2893, The WP EasyCart plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.4.8. This is due to missing or incorrect nonce validation on the process_deactivate_product function. This makes it possible for unauthenticated attackers to deactivate products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2190, An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.10 before 15.11.10, all versions starting from 16.0 before 16.0.6, all versions starting from 16.1 before 16.1.1. It may be possible for users to view new commits to private projects in a fork created while the project was public.
+
+CVE-2023-2558, The WPCS – WordPress Currency Switcher Professional plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wpcs_current_currency shortcode in versions up to, and including, 1.1.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2108, A vulnerability has been found in SourceCodester Judging Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file edit_contestant.php. The manipulation of the argument contestant_id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226147.
+
+CVE-2023-2221, The WP Custom Cursors WordPress plugin before 3.2 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by users with a role as low as Admin.
+
+CVE-2023-2671, A vulnerability was found in SourceCodester Lost and Found Information System 1.0. It has been rated as problematic. This issue affects some unknown processing of the file classes/Master.php?f=save_inquiry of the component Contact Form. The manipulation of the argument fullname/contact/message leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228887.
+
+CVE-2023-2364, A vulnerability, which was classified as problematic, was found in SourceCodester Resort Reservation System 1.0. Affected is an unknown function of the file registration.php. The manipulation of the argument fullname leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227640.
+
+CVE-2023-2734, The MStore API plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 3.9.1. This is due to insufficient verification on the user being supplied during the cart sync from mobile REST API request through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the user id.
+
+CVE-2023-2626, There exists an authentication bypass vulnerability in OpenThread border router devices and implementations. This issue allows unauthenticated nodes to craft radio frames using “Key ID Mode 2”: a special mode using a static encryption key to bypass security checks, resulting in arbitrary IP packets being allowed on the Thread network.  This provides a pathway for an attacker to send/receive arbitrary IPv6 packets to devices on the LAN, potentially exploiting them if they lack additional authentication or contain any network vulnerabilities that would normally be mitigated by the home router’s NAT firewall. Effected devices have been mitigated through an automatic update beyond the affected range.
+
+CVE-2023-2276, The WCFM Membership – WooCommerce Memberships for Multivendor Marketplace plugin for WordPress is vulnerable to Insecure Direct Object References in versions up to, and including, 2.10.7. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts.
+
+CVE-2023-2763, Use-After-Free, Out-of-bounds Write and Heap-based Buffer Overflow vulnerabilities exist in the DWG and DXF file reading procedure in SOLIDWORKS Desktop from Release SOLIDWORKS 2021 through Release SOLIDWORKS 2023. These vulnerabilities could allow an attacker to execute arbitrary code while opening a specially crafted DWG or DXF file.
+
+CVE-2023-2299, The Online Booking & Scheduling Calendar for WordPress by vcita plugin for WordPress is vulnerable to unauthorized medication of data via the /wp-json/vcita-wordpress/v1/actions/auth REST-API endpoint in versions up to, and including, 4.2.10 due to a missing capability check on the processAction function. This makes it possible for unauthenticated attackers modify the plugin's settings.
+
+CVE-2023-2333, The Ninja Forms Google Sheet Connector WordPress plugin before 1.2.7, gsheetconnector-ninja-forms-pro WordPress plugin through 1.2.7 does not escape a parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2519, A vulnerability has been found in Caton CTP Relay Server 1.2.9 and classified as critical. This vulnerability affects unknown code of the file /server/api/v1/login of the component API. The manipulation of the argument username/password leads to sql injection. The attack can be initiated remotely. VDB-228010 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2149, A vulnerability classified as critical was found in Campcodes Online Thesis Archiving System 1.0. This vulnerability affects unknown code of the file /admin/user/manage_user.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-226270 is the identifier assigned to this vulnerability.
+
+CVE-2023-2260, Authorization Bypass Through User-Controlled Key in GitHub repository alfio-event/alf.io prior to 2.0-M4-2304.
+
+CVE-2023-2630, Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2325, Stored XSS Vulnerability in M-Files Classic Web versions before 23.10 and LTS Service Release Versions before 23.2 LTS SR4 and 23.8 LTS SR1allows attacker to execute script on users browser via stored HTML document.
+
+CVE-2023-2775, A vulnerability was found in code-projects Bus Dispatch and Information System 1.0. It has been classified as critical. This affects an unknown part of the file adminHome.php. The manipulation of the argument reach_city leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-229281 was assigned to this vulnerability.
+
+CVE-2023-2958, Authorization Bypass Through User-Controlled Key vulnerability in Origin Software ATS Pro allows Authentication Abuse, Authentication Bypass.This issue affects ATS Pro: before 20230714.
+
+CVE-2023-2667, A vulnerability has been found in SourceCodester Lost and Found Information System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file admin/. The manipulation of the argument page leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228883.
+
+CVE-2023-2237, The WP Replicate Post plugin for WordPress is vulnerable to SQL Injection via the post_id parameter in versions up to, and including, 4.0.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for contributor-level attackers or higher to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+CVE-2023-2722, Use after free in Autofill UI in Google Chrome on Android prior to 113.0.5672.126 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2372, A vulnerability, which was classified as problematic, has been found in SourceCodester Online DJ Management System 1.0. Affected by this issue is some unknown functionality of the file classes/Master.php?f=save_event. The manipulation of the argument name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227648.
+
+CVE-2023-2688, The WordPress File Upload and WordPress File Upload Pro plugins for WordPress are vulnerable to Path Traversal in versions up to, and including, 4.19.1 via the vulnerable parameter wfu_newpath. This allows administrator-level attackers to move files uploaded with the plugin (located in wp-content/uploads by default) outside of the web root.
+
+CVE-2023-2866,  If an attacker can trick an authenticated user into loading a maliciously crafted .zip file onto Advantech WebAccess version 8.4.5, a web shell could be used to give the attacker full control of the SCADA server.
+
+CVE-2023-2923, A vulnerability classified as critical was found in Tenda AC6 US_AC6V1.0BR_V15.03.05.19. Affected by this vulnerability is the function fromDhcpListClient. The manipulation leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-230077 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2889, Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Veon Computer Service Tracking Software allows SQL Injection.This issue affects Service Tracking Software: through 20231122.   NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2020, Insufficient permission checks in the REST API in Tribe29 Checkmk <= 2.1.0p27 and <= 2.2.0b4 (beta) allow unauthorized users to schedule downtimes for any host.
+
+CVE-2023-2470, The Add to Feedly WordPress plugin through 1.2.11 does not sanitize and escape its settings, allowing high-privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.
+
+CVE-2023-2759, A hidden API exists in TapHome's core platform before version 2023.2 that allows an authenticated, low privileged user to change passwords of other users without any prior knowledge. The attacker may gain full access to the device by using this vulnerability.
+
+CVE-2023-2309, The wpForo Forum WordPress plugin before 2.1.9 does not escape some request parameters while in debug mode, leading to a Reflected Cross-Site Scripting vulnerability.
+
+CVE-2023-2831, Mattermost fails to unescape Markdown strings in a memory-efficient way, allowing an attacker to cause a Denial of Service by sending a message containing a large number of escaped characters.
+
+CVE-2023-2562, The Gallery Metabox for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the refresh_metabox function in versions up to, and including, 1.5. This makes it possible for subscriber-level attackers to obtain a list of images attached to a post.
+
+CVE-2023-2098, A vulnerability was found in SourceCodester Vehicle Service Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /inc/topBarNav.php. The manipulation of the argument search leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-226106 is the identifier assigned to this vulnerability.
+
+CVE-2023-2132, An issue has been discovered in GitLab CE/EE affecting all versions starting from 15.4 before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. A DollarMathPostFilter Regular Expression Denial of Service in was possible by sending crafted payloads to the preview_markdown endpoint.
+
+CVE-2023-2427, Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.13.
+
+CVE-2023-2077, A vulnerability, which was classified as problematic, has been found in Campcodes Online Traffic Offense Management System 1.0. This issue affects some unknown processing of the file /admin/offenses/view_details.php. The manipulation of the argument id leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226055.
+
+CVE-2023-2974, A vulnerability was found in quarkus-core. This vulnerability occurs because the TLS protocol configured with quarkus.http.ssl.protocols is not enforced, and the client can force the selection of the weaker supported TLS protocol.
+
+CVE-2023-2124, An out-of-bounds memory access flaw was found in the Linux kernel’s XFS file system in how a user restores an XFS image after failure (with a dirty log journal). This flaw allows a local user to crash or potentially escalate their privileges on the system.
+
+CVE-2023-2574, Advantech EKI-1524, EKI-1522, EKI-1521 devices through 1.21 are affected by an command injection vulnerability in the device name input field, which can be triggered by authenticated users via a crafted POST request.
+
+CVE-2023-2827, SAP Plant Connectivity - version 15.5 (PCo) or the Production Connector for SAP Digital Manufacturing - version 1.0, do not validate the signature of the JSON Web Token (JWT) in the HTTP request sent from SAP Digital Manufacturing. Therefore, unauthorized callers from the internal network could send service requests to PCo or the Production Connector, which could have an impact on the integrity of the integration with SAP Digital Manufacturing.
+
+CVE-2023-2962, A vulnerability, which was classified as critical, has been found in SourceCodester Faculty Evaluation System 1.0. Affected by this issue is some unknown functionality of the file index.php?page=edit_user. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-230150 is the identifier assigned to this vulnerability.
+
+CVE-2023-2061, Use of Hard-coded Password vulnerability in FTP function on Mitsubishi Electric Corporation MELSEC iQ-R Series EtherNet/IP module RJ71EIP91 and MELSEC iQ-F Series EtherNet/IP module FX5-ENET/IP allows a remote unauthenticated attacker to obtain a hard-coded password and access to the module via FTP.
+
+CVE-2023-2431, A security issue was discovered in Kubelet that allows pods to bypass the seccomp profile enforcement. Pods that use localhost type for seccomp profile but specify an empty profile field, are affected by this issue. In this scenario, this vulnerability allows the pod to run in unconfined (seccomp disabled) mode. This bug affects Kubelet.
+
+CVE-2023-2718, The Contact Form Email WordPress plugin before 1.3.38 does not escape submitted values before displaying them in the HTML, leading to a Stored XSS vulnerability.
+
+CVE-2023-2348, A vulnerability was found in SourceCodester Service Provider Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/user/manage_user.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227591.
+
+CVE-2023-2870, A vulnerability was found in EnTech Monitor Asset Manager 2.9. It has been declared as problematic. Affected by this vulnerability is the function 0x80002014 of the component IoControlCode Handler. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. The identifier VDB-229849 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2523, A vulnerability was found in Weaver E-Office 9.5. It has been rated as critical. Affected by this issue is some unknown functionality of the file App/Ajax/ajax.php?action=mobile_upload_save. The manipulation of the argument upload_quwan leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228014 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2173, The BadgeOS plugin for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 3.7.1.6. This is due to improper validation and authorization checks within the badgeos_delete_step_ajax_handler, badgeos_delete_award_step_ajax_handler, badgeos_delete_deduct_step_ajax_handler, and badgeos_delete_rank_req_step_ajax_handler functions. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to delete arbitrary posts.
+
+CVE-2023-2489, The Stop Spammers Security | Block Spam Users, Comments, Forms WordPress plugin before 2023 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+
+CVE-2023-2466, Inappropriate implementation in Prompts in Google Chrome prior to 113.0.5672.63 allowed a remote attacker to spoof the contents of the security UI via a crafted HTML page. (Chromium security severity: Low)
+
+CVE-2023-2036, A vulnerability was found in Campcodes Video Sharing Website 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file upload.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-225914 is the identifier assigned to this vulnerability.
+
+CVE-2023-2935, Type Confusion in V8 in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2871, A vulnerability was found in FabulaTech USB for Remote Desktop 6.1.0.0. It has been rated as problematic. Affected by this issue is the function 0x220448/0x220420/0x22040c/0x220408 of the component IoControlCode Handler. The manipulation leads to null pointer dereference. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. VDB-229850 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2522, A vulnerability was found in Chengdu VEC40G 3.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /send_order.cgi?parameter=access_detect of the component Network Detection. The manipulation of the argument COUNT with the input 3 | netstat -an leads to os command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-228013 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2172, The BadgeOS plugin for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 3.7.1.6. This is due to improper validation and authorization checks within the badgeos_update_steps_ajax_handler, badgeos_update_award_steps_ajax_handler, badgeos_update_deduct_steps_ajax_handler, and badgeos_update_ranks_req_steps_ajax_handler functions. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to overwrite arbitrary post titles.
+
+CVE-2023-2488, The Stop Spammers Security | Block Spam Users, Comments, Forms WordPress plugin before 2023 does not sanitise and escape various parameters before outputting them back in admin dashboard pages, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2467, Inappropriate implementation in Prompts in Google Chrome on Android prior to 113.0.5672.63 allowed a remote attacker to bypass permissions restrictions via a crafted HTML page. (Chromium security severity: Low)
+
+CVE-2023-2037, A vulnerability was found in Campcodes Video Sharing Website 1.0. It has been classified as critical. This affects an unknown part of the file watch.php. The manipulation of the argument code leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-225915.
+
+CVE-2023-2934, Out of bounds memory access in Mojo in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2719, The SupportCandy WordPress plugin before 3.1.7 does not properly sanitise and escape the `id` parameter for an Agent in the REST API before using it in an SQL statement, leading to an SQL Injection exploitable by users with a role as low as Subscriber.
+
+CVE-2023-2349, A vulnerability classified as problematic has been found in SourceCodester Service Provider Management System 1.0. Affected is an unknown function of the file /admin/index.php. The manipulation of the argument page leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227592.
+
+CVE-2023-2575, Advantech EKI-1524, EKI-1522, EKI-1521 devices through 1.21 are affected by a Stack-based Buffer Overflow vulnerability, which can be triggered by authenticated users via a crafted POST request.
+
+CVE-2023-2826, A vulnerability has been found in SourceCodester Class Scheduling System 1.0 and classified as problematic. This vulnerability affects unknown code of the file search_teacher_result.php of the component POST Parameter Handler. The manipulation of the argument teacher leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-229612.
+
+CVE-2023-2963, Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Oliva Expertise Oliva Expertise EKS allows SQL Injection.This issue affects Oliva Expertise EKS: before 1.2.
+
+CVE-2023-2060, Weak Password Requirements vulnerability in FTP function on Mitsubishi Electric Corporation MELSEC iQ-R Series EtherNet/IP module RJ71EIP91 and MELSEC iQ-F Series EtherNet/IP module FX5-ENET/IP allows a remote unauthenticated attacker to access to the module via FTP by dictionary attack or password sniffing.
+
+CVE-2023-2430, A vulnerability was found due to missing lock for IOPOLL flaw in io_cqring_event_overflow() in io_uring.c in Linux Kernel. This flaw allows a local attacker with user privilege to trigger a Denial of Service threat.
+
+CVE-2023-2830, Cross-Site Request Forgery (CSRF) vulnerability in Trustindex.Io WP Testimonials plugin <= 1.4.2 versions.
+
+CVE-2023-2563, The WordPress Contact Forms by Cimatti plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.5.7. This is due to missing or incorrect nonce validation on the function _accua_forms_form_edit_action. This makes it possible for unauthenticated attackers to delete forms created with this plugin via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2099, A vulnerability classified as problematic has been found in SourceCodester Vehicle Service Management System 1.0. This affects an unknown part of the file /classes/Users.php. The manipulation of the argument id leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226107.
+
+CVE-2023-2133, Out of bounds memory access in Service Worker API in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2426, Use of Out-of-range Pointer Offset in GitHub repository vim/vim prior to 9.0.1499.
+
+CVE-2023-2076, A vulnerability classified as problematic was found in Campcodes Online Traffic Offense Management System 1.0. This vulnerability affects unknown code of the file /classes/Users.phpp. The manipulation of the argument id leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-226054 is the identifier assigned to this vulnerability.
+
+CVE-2023-2975, Issue summary: The AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries which are unauthenticated as a consequence.  Impact summary: Applications that use the AES-SIV algorithm and want to authenticate empty data entries as associated data can be mislead by removing adding or reordering such empty entries as these are ignored by the OpenSSL implementation. We are currently unaware of any such applications.  The AES-SIV algorithm allows for authentication of multiple associated data entries along with the encryption. To authenticate empty data the application has to call EVP_EncryptUpdate() (or EVP_CipherUpdate()) with NULL pointer as the output buffer and 0 as the input buffer length. The AES-SIV implementation in OpenSSL just returns success for such a call instead of performing the associated data authentication operation. The empty data thus will not be authenticated.  As this issue does not affect non-empty associated data authentication and we expect it to be rare for an application to use empty associated data entries this is qualified as Low severity issue.
+
+CVE-2023-2758, A denial of service vulnerability exists in Contec CONPROSYS HMI System versions 3.5.2 and prior. When there is a time-zone mismatch in certain configuration files, a remote, unauthenticated attacker may deny logins for an extended period of time.
+
+CVE-2023-2164, An issue has been discovered in GitLab affecting all versions starting from 15.9 before 16.0.8, all versions starting from 16.1 before 16.1.3, all versions starting from 16.2 before 16.2.2. It was possible for an attacker to trigger a stored XSS vulnerability via user interaction with a crafted URL in the WebIDE beta.
+
+CVE-2023-2534, Improper Authorization vulnerability in OTRS AG OTRS 8 (Websocket API backend) allows any as Agent authenticated attacker to track user behaviour and to gain live insight into overall system usage. User IDs can easily be correlated with real names e. g. via ticket histories by any user. (Fuzzing for garnering other adjacent user/sensitive data). Subscribing to all possible push events could also lead to performance implications on the server side, depending on the size of the installation and the number of active users. (Flooding)This issue affects OTRS: from 8.0.X before 8.0.32.
+
+CVE-2023-2922, A vulnerability classified as problematic has been found in SourceCodester Comment System 1.0. Affected is an unknown function of the file index.php of the component GET Parameter Handler. The manipulation of the argument msg leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-230076.
+
+CVE-2023-2888, A vulnerability, which was classified as problematic, was found in PHPOK 6.4.100. This affects an unknown part of the file /admin.php?c=upload&f=zip&_noCache=0.1683794968. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The identifier VDB-229953 was assigned to this vulnerability.
+
+CVE-2023-2021, Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.3.
+
+CVE-2023-2666, Allocation of Resources Without Limits or Throttling in GitHub repository froxlor/froxlor prior to 2.0.16.
+
+CVE-2023-2236, A use-after-free vulnerability in the Linux Kernel io_uring subsystem can be exploited to achieve local privilege escalation.  Both io_install_fixed_file and its callers call fput in a file in case of an error, causing a reference underflow which leads to a use-after-free vulnerability.  We recommend upgrading past commit 9d94c04c0db024922e886c9fd429659f22f48ea4.
+
+CVE-2023-2723, Use after free in DevTools in Google Chrome prior to 113.0.5672.126 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2373, A vulnerability, which was classified as critical, was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. This affects an unknown part of the component Web Management Interface. The manipulation of the argument ecn-up leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227649 was assigned to this vulnerability.
+
+CVE-2023-2689, A vulnerability classified as critical was found in SourceCodester Billing Management System 1.0. This vulnerability affects unknown code of the file editproduct.php of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-228970 is the identifier assigned to this vulnerability.
+
+CVE-2023-2959, Authentication Bypass by Primary Weakness vulnerability in Oliva Expertise Oliva Expertise EKS allows Collect Data as Provided by Users.This issue affects Oliva Expertise EKS: before 1.2.
+
+CVE-2023-2261, The WP Activity Log plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the handle_ajax_call function in versions up to, and including, 4.5.0. This makes it possible for authenticated attackers, with subscriber-level access or higher, to obtain a list of users with accounts on the site. This includes ids, usernames and emails.
+
+CVE-2023-2631, A missing permission check in Jenkins Code Dx Plugin 3.1.0 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL.
+
+CVE-2023-2324, The Elementor Forms Google Sheet Connector WordPress plugin before 1.0.7, gsheetconnector-for-elementor-forms-pro WordPress plugin through 1.0.7 does not escape some parameters before outputting them back in attributes, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2774, A vulnerability was found in code-projects Bus Dispatch and Information System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file view_branch.php. The manipulation of the argument branchid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-229280.
+
+CVE-2023-2518, The Easy Forms for Mailchimp WordPress plugin before 6.8.9 does not sanitise and escape a parameter before outputting it back in the page when the debug option is enabled, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
+
+CVE-2023-2148, A vulnerability classified as critical has been found in Campcodes Online Thesis Archiving System 1.0. This affects an unknown part of the file /admin/curriculum/view_curriculum.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226269 was assigned to this vulnerability.
+
+CVE-2023-2627, The KiviCare WordPress plugin before 3.2.1 does not have proper CSRF and authorisation checks in various AJAX actions, allowing any authenticated users, such as subscriber to call them. Attacks include but are not limited to: Add arbitrary Clinic Admin/Doctors/etc and update plugin's settings
+
+CVE-2023-2277, The WP Directory Kit plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.1.9. This is due to missing or incorrect nonce validation on the 'insert' function. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious JavaScript via a forged request, granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2762, A Use-After-Free vulnerability in SLDPRT file reading procedure exists in SOLIDWORKS Desktop from Release SOLIDWORKS 2021 through Release SOLIDWORKS 2023. This vulnerability could allow an attacker to execute arbitrary code while opening a specially crafted SLDPRT file.
+
+CVE-2023-2298, The Online Booking & Scheduling Calendar for WordPress by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'business_id' parameter in versions up to, and including, 4.2.10 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2220, A vulnerability was found in Dream Technology mica up to 3.0.5. It has been classified as problematic. Affected is an unknown function of the component Form Object Handler. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. VDB-226986 is the identifier assigned to this vulnerability.
+
+CVE-2023-2670, A vulnerability was found in SourceCodester Lost and Found Information System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file admin/?page=user/manage_user. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-228886 is the identifier assigned to this vulnerability.
+
+CVE-2023-2365, A vulnerability has been found in SourceCodester Faculty Evaluation System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file ajax.php?action=delete_subject. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227641 was assigned to this vulnerability.
+
+CVE-2023-2735, The Groundhogg plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'gh_form' shortcode in versions up to, and including, 2.7.9.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Please note this only works with legacy contact forms.
+
+CVE-2023-2109, Cross-site Scripting (XSS) - DOM in GitHub repository chatwoot/chatwoot prior to 2.14.0.
+
+CVE-2023-2484, The Active Directory Integration plugin for WordPress is vulnerable to time-based SQL Injection via the orderby and order parameters in versions up to, and including, 4.1.4 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers with administrator privileges to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+CVE-2023-2938, Inappropriate implementation in Picture In Picture in Google Chrome prior to 114.0.5735.90 allowed a remote attacker who had compromised the renderer process to spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: Medium)
+
+CVE-2023-2892, The WP EasyCart plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.4.8. This is due to missing or incorrect nonce validation on the process_bulk_delete_product function. This makes it possible for unauthenticated attackers to bulk delete products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2191, Cross-site Scripting (XSS) - Stored in GitHub repository azuracast/azuracast prior to 0.18.
+
+CVE-2023-2742, The AI ChatBot WordPress plugin before 4.5.5 does not sanitize and escape its settings, allowing high-privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.
+
+CVE-2023-2312, Use after free in Offline in Google Chrome on Android prior to 116.0.5845.96 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2607, The Multiple Page Generator Plugin for WordPress is vulnerable to time-based SQL Injection via the orderby and order parameters in versions up to, and including, 3.3.17 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers with administrator privileges to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+CVE-2023-2257, Authentication Bypass in Hub Business integration in Devolutions Workspace Desktop 2023.1.1.3 and earlier on Windows and macOS allows an attacker with access to the user interface to unlock a Hub  Business space without being prompted to enter the password via an  unimplemented "Force Login" security feature.  This vulnerability occurs only if "Force Login" feature is enabled on the Hub Business instance and that an attacker has access to a locked Workspace desktop application configured with a Hub Business space.
+
+CVE-2023-2980, A vulnerability classified as critical was found in Abstrium Pydio Cells 4.2.0. This vulnerability affects unknown code of the component User Creation Handler. The manipulation leads to improper control of resource identifiers. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.2.1 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230212.
+
+CVE-2023-2579, The InventoryPress WordPress plugin through 1.7 does not sanitise and escape some of its settings, which could allow users with the role of author and above to perform Stored Cross-Site Scripting attacks.
+
+CVE-2023-2083, The Essential Blocks plugin for WordPress is vulnerable to unauthorized use of functionality due to a missing capability check on the save function in versions up to, and including, 4.0.6. This makes it possible for subscriber-level attackers to save plugin settings. While a nonce check is present, it is only executed when a nonce is provided. Not providing a nonce results in the nonce verification to be skipped. There is no capability check.
+
+CVE-2023-2596, A vulnerability was found in SourceCodester Online Reviewer System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /reviewer/system/system/admins/manage/users/user-update.php of the component GET Parameter Handler. The manipulation of the argument user_id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228398 is the identifier assigned to this vulnerability.
+
+CVE-2023-2345, A vulnerability was found in SourceCodester Service Provider Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /classes/Master.php?f=delete_inquiry. The manipulation leads to improper authorization. The attack may be launched remotely. The identifier of this vulnerability is VDB-227588.
+
+CVE-2023-2715, The Groundhogg plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'submit_ticket' function in versions up to, and including, 2.7.9.8. This makes it possible for authenticated attackers to create a support ticket that sends the website's data to the plugin developer, and it is also possible to create an admin access with an auto login link that is also sent to the plugin developer with the ticket. It only works if the plugin is activated with a valid license.
+
+CVE-2023-2200, An issue has been discovered in GitLab CE/EE affecting all versions starting from 7.14 before 15.11.10, all versions starting from 16.0 before 16.0.6, all versions starting from 16.1 before 16.1.1, which allows an attacker to inject HTML in an email address field.
+
+CVE-2023-2650, Issue summary: Processing some specially crafted ASN.1 object identifiers or data containing them may be very slow.  Impact summary: Applications that use OBJ_obj2txt() directly, or use any of the OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message size limit may experience notable to very long delays when processing those messages, which may lead to a Denial of Service.  An OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers - most of which have no size limit.  OBJ_obj2txt() may be used to translate an ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL type ASN1_OBJECT) to its canonical numeric text form, which are the sub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by periods.  When one of the sub-identifiers in the OBJECT IDENTIFIER is very large (these are sizes that are seen as absurdly large, taking up tens or hundreds of KiBs), the translation to a decimal number in text may take a very long time.  The time complexity is O(n^2) with 'n' being the size of the sub-identifiers in bytes (*).  With OpenSSL 3.0, support to fetch cryptographic algorithms using names / identifiers in string form was introduced.  This includes using OBJECT IDENTIFIERs in canonical numeric text form as identifiers for fetching algorithms.  Such OBJECT IDENTIFIERs may be received through the ASN.1 structure AlgorithmIdentifier, which is commonly used in multiple protocols to specify what cryptographic algorithm should be used to sign or verify, encrypt or decrypt, or digest passed data.  Applications that call OBJ_obj2txt() directly with untrusted data are affected, with any version of OpenSSL.  If the use is for the mere purpose of display, the severity is considered low.  In OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS.  It also impacts anything that processes X.509 certificates, including simple things like verifying its signature.  The impact on TLS is relatively low, because all versions of OpenSSL have a 100KiB limit on the peer's certificate chain.  Additionally, this only impacts clients, or servers that have explicitly enabled client authentication.  In OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects, such as X.509 certificates.  This is assumed to not happen in such a way that it would cause a Denial of Service, so these versions are considered not affected by this issue in such a way that it would be cause for concern, and the severity is therefore considered low.
+
+CVE-2023-2095, A vulnerability was found in SourceCodester Vehicle Service Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/maintenance/manage_category.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226103.
+
+CVE-2023-2996, The Jetpack WordPress plugin before 12.1.1 does not validate uploaded files, allowing users with author roles or above to manipulate existing files on the site, deleting arbitrary files, and in rare cases achieve Remote Code Execution via phar deserialization.
+
+CVE-2023-2979, A vulnerability classified as critical has been found in Abstrium Pydio Cells 4.2.0. This affects an unknown part of the component User Creation Handler. The manipulation leads to improper access controls. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.2.1 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-230211.
+
+CVE-2023-2580, The AI Engine WordPress plugin before 1.6.83 does not sanitize and escape some of its settings, which could allow high-privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example, in multisite setup).
+
+CVE-2023-2703, Exposure of Private Personal Information to an Unauthorized Actor vulnerability in Finex Media Competition Management System allows Retrieve Embedded Sensitive Data, Collect Data as Provided by Users.This issue affects Competition Management System: before 23.07.
+
+CVE-2023-2353, The CHP Ads Block Detector plugin for WordPress is vulnerable to unauthorized plugin settings update and reset due to a missing capability check on the chp_abd_action function in versions up to, and including, 3.9.4. This makes it possible for subscriber-level attackers to change or reset plugin settings. CVE-2023-36509 appears to be a duplicate of this issue.
+
+CVE-2023-2646, A vulnerability has been found in TP-Link Archer C7v2 v2_en_us_180114 and classified as problematic. Affected by this vulnerability is an unknown functionality of the component GET Request Parameter Handler. The manipulation leads to denial of service. The attack can only be done within the local network. The associated identifier of this vulnerability is VDB-228775. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2216, A vulnerability classified as problematic was found in Campcodes Coffee Shop POS System 1.0. Affected by this vulnerability is an unknown functionality of the file /classes/Users.php. The manipulation of the argument firstname leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226981 was assigned to this vulnerability.
+
+CVE-2023-2538, A CWE-552 "Files or Directories Accessible to External Parties” in the web interface of the Tyan S5552 BMC version 3.00 allows an unauthenticated remote attacker to retrieve the private key of the TLS certificate in use by the BMC via forced browsing. This can then be abused to perform Man-in-the-Middle (MitM) attacks against victims that access the web interface through HTTPS.
+
+CVE-2023-2168, The TaxoPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Suggest Terms Title field in versions up to, and including, 3.6.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with Editor+ permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2492, The QueryWall: Plug'n Play Firewall WordPress plugin through 1.1.1 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
+
+CVE-2023-2187, On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send broadcast events to any user via the WebMonitor.An unauthenticated user can use this vulnerability to forcefully log out of any currently logged-in user by sending a "password change event". Furthermore, an attacker could use this vulnerability to spam the logged-in user with false events.
+
+CVE-2023-2884, Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG), Use of Insufficiently Random Values vulnerability in CBOT Chatbot allows Signature Spoofing by Key Recreation.This issue affects Chatbot: before Core: v4.0.3.4 Panel: v4.0.3.7.
+
+CVE-2023-2304, The Favorites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'user_favorites' shortcode in versions up to, and including, 2.3.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2754, The Cloudflare WARP client for Windows assigns loopback IPv4 addresses for the DNS Servers, since WARP acts as local DNS server that performs DNS queries in a secure manner, however, if a user is connected to WARP over an IPv6-capable network, te WARP client did not assign loopback IPv6 addresses but Unique Local Addresses, which under certain conditions could point towards unknown devices in the same local network which enables an Attacker to view DNS queries made by the device.
+
+CVE-2023-2241, A vulnerability, which was classified as critical, was found in PoDoFo 0.10.0. Affected is the function readXRefStreamEntry of the file PdfXRefStreamParserObject.cpp. The manipulation leads to heap-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The patch is identified as 535a786f124b739e3c857529cecc29e4eeb79778. It is recommended to apply a patch to fix this issue. VDB-227226 is the identifier assigned to this vulnerability.
+
+CVE-2023-2611, Advantech R-SeeNet  versions 2.4.22   is installed with a hidden root-level user that is not available in the  users list. This hidden user has a password that cannot be changed by  users.
+
+CVE-2023-2406, The Event Registration Calendar By vcita plugin, versions up to and including 3.9.1, and Online Payments – Get Paid with PayPal, Square & Stripe plugin, for WordPress are vulnerable to Stored Cross-Site Scripting via the 'email' parameter in versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with the edit_posts capability, such as contributors and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2056, A vulnerability was found in DedeCMS up to 5.7.87 and classified as critical. This issue affects the function GetSystemFile of the file module_main.php. The manipulation leads to code injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-225941 was assigned to this vulnerability.
+
+CVE-2023-2955, A vulnerability, which was classified as critical, was found in SourceCodester Students Online Internship Timesheet System 1.0. Affected is an unknown function of the file rendered_report.php of the component GET Parameter Handler. The manipulation of the argument sid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-230142 is the identifier assigned to this vulnerability.
+
+CVE-2023-2113, The Autoptimize WordPress plugin before 3.1.7 does not sanitise and escape the settings imported from a previous export, allowing high privileged users (such as an administrator) to inject arbitrary javascript into the admin panel, even when the unfiltered_html capability is disabled, such as in a multisite setup.
+
+CVE-2023-2390, A vulnerability has been found in Netgear SRX5308 up to 4.3.5-3 and classified as problematic. This vulnerability affects unknown code of the file scgi-bin/platform.cgi?page=time_zone.htm of the component Web Management Interface. The manipulation of the argument ntp.server1 leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227668. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2685, A vulnerability was found in AO-OPC server versions mentioned above. As the directory information for the service entry is not enclosed in quotation marks, potential attackers could possibly call up another application than the AO-OPC server by starting the service. The service might be started with system user privileges which could cause a shift in user access privileges.  It is unlikely to exploit the vulnerability in well maintained Windows installations since the attacker would need write access to system folders.  An update is available that resolves the vulnerability found during an internal review in the product AO-OPC = 3.2.1
+
+CVE-2023-2902, A vulnerability was found in NFine Rapid Development Platform 20230511. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc. The manipulation leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-229976. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2001, An issue has been discovered in GitLab CE/EE affecting all versions before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. An attacker was able to spoof protected tags, which could potentially lead a victim to download malicious code.
+
+CVE-2023-2451, A vulnerability was found in SourceCodester Online DJ Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/bookings/view_details.php of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227795.
+
+CVE-2023-2144, A vulnerability was found in Campcodes Online Thesis Archiving System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/departments/view_department.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226265 was assigned to this vulnerability.
+
+CVE-2023-2514, Mattermost Sever fails to redact the DB username and password before emitting an application log during server initialization.
+
+CVE-2023-2847,  During internal security analysis, a local privilege escalation vulnerability has been identified. On a machine with the affected ESET product installed, it was possible for a user with lower privileges due to improper privilege management to trigger actions with root privileges.  ESET remedied this possible attack vector and has prepared new builds of its products that are no longer susceptible to this vulnerability.
+
+CVE-2023-2797, Mattermost fails to sanitize code permalinks, allowing an attacker to preview code from private repositories by posting a specially crafted permalink on a channel.
+
+CVE-2023-2778,  A denial-of-service vulnerability exists in Rockwell Automation FactoryTalk Transaction Manager. This vulnerability can be exploited by sending a modified packet to port 400. If exploited, the application could potentially crash or experience a high CPU or memory usage condition, causing intermittent application functionality issues. The application would need to be restarted to recover from the DoS.
+
+CVE-2023-2282, Improper access control in the Web Login listener in Devolutions Remote Desktop Manager 2023.1.22 and earlier on Windows allows an authenticated user to bypass administrator-enforced Web Login restrictions and gain access to entries via an unexpected vector.
+
+CVE-2023-2328, Cross-site Scripting (XSS) - Generic in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2447, The UserPro plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.1.1. This is due to missing or incorrect nonce validation on the 'export_users' function. This makes it possible for unauthenticated attackers to export the users to a csv file, granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2017, Server-side Template Injection (SSTI) in Shopware 6 (<= v6.4.20.0, v6.5.0.0-rc1 <= v6.5.0.0-rc4), affecting both shopware/core and shopware/platform GitHub repositories, allows remote attackers with access to a Twig environment without the Sandbox extension to bypass the validation checks in `Shopware\Core\Framework\Adapter\Twig\SecurityExtension` and call any arbitrary PHP function and thus execute arbitrary code/commands via usage of fully-qualified names, supplied as array of strings, when referencing callables. Users are advised to upgrade to v6.4.20.1 to resolve this issue. This is a bypass of CVE-2023-22731.
+
+CVE-2023-2914, The Rockwell Automation Thinmanager Thinserver is impacted by an improper input validation vulnerability, an integer overflow condition exists in the affected products. When the ThinManager processes incoming messages, a read access violation occurs and terminates the process. A malicious user could exploit this vulnerability by sending a crafted synchronization protocol message and causing a denial of service condition in the software.
+
+CVE-2023-2851, Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AGT Tech Ceppatron allows Command Line Execution through SQL Injection, SQL Injection.This issue affects all versions of the sofware also EOS when CVE-ID assigned.
+
+CVE-2023-2152, A vulnerability has been found in SourceCodester Student Study Center Desk Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file index.php. The manipulation of the argument page leads to file inclusion. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226273 was assigned to this vulnerability.
+
+CVE-2023-2781, The User Email Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass via authenticate_user_by_email in versions up to, and including, 3.5.0. This is due to a random token generation weakness in the resend_verification_email function. This allows unauthenticated attackers to impersonate users and trigger an email address verification for arbitrary accounts, including administrative accounts, and automatically be logged in as that user, including any site administrators. This requires the Allow Automatic Login After Successful Verification setting to be enabled, which it is not by default.
+
+CVE-2023-2294, A vulnerability was found in UCMS 1.6.0. It has been classified as problematic. This affects an unknown part of the file saddpost.php of the component Column Configuration. The manipulation of the argument strorder leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227481 was assigned to this vulnerability.
+
+CVE-2023-2943, Code Injection in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2040, A vulnerability classified as critical has been found in novel-plus 3.6.2. Affected is an unknown function of the file /news/list?limit=10&offset=0&order=desc. The manipulation of the argument sort leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-225918 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2410, A vulnerability has been found in SourceCodester AC Repair and Services System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/bookings/view_booking.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227704.
+
+CVE-2023-2105, Session Fixation in GitHub repository alextselegidis/easyappointments prior to 1.5.0.
+
+CVE-2023-2555, The WPCS – WordPress Currency Switcher Professional plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the create function in versions up to, and including, 1.1.9. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to create a custom drop-down currency switcher.
+
+CVE-2023-2806, A vulnerability classified as problematic was found in Weaver e-cology up to 9.0. Affected by this vulnerability is the function RequestInfoByXml of the component API. The manipulation leads to xml external entity reference. The associated identifier of this vulnerability is VDB-229411. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2386, A vulnerability classified as problematic has been found in Netgear SRX5308 up to 4.3.5-3. Affected is an unknown function of the file scgi-bin/platform.cgi?page=firewall_logs_email.htm of the component Web Management Interface. The manipulation of the argument smtpServer.toAddr leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227664. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2739, A vulnerability classified as problematic was found in Gira HomeServer up to 4.12.0.220829 beta. This vulnerability affects unknown code of the file /hslist. The manipulation of the argument lst with the input debug%27"><img%20src=x%20onerror=alert(document.cookie)> leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-229150 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2369, A vulnerability was found in SourceCodester Faculty Evaluation System 1.0. It has been rated as critical. This issue affects some unknown processing of the file admin/manage_restriction.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227645 was assigned to this vulnerability.
+
+CVE-2023-2693, A vulnerability was found in SourceCodester Online Exam System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /mahasiswa/data of the component POST Parameter Handler. The manipulation of the argument columns[1][data] leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228974 is the identifier assigned to this vulnerability.
+
+CVE-2023-2948, Cross-site Scripting (XSS) - Generic in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2227, Improper Authorization in GitHub repository modoboa/modoboa prior to 2.1.0.
+
+CVE-2023-2677, A vulnerability, which was classified as critical, was found in SourceCodester Covid-19 Contact Tracing System 1.0. This affects an unknown part of the file admin/establishment/manage.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228891.
+
+CVE-2023-2362, The Float menu WordPress plugin before 5.0.2, Bubble Menu WordPress plugin before 3.0.4, Button Generator WordPress plugin before 2.3.5, Calculator Builder WordPress plugin before 1.5.1, Counter Box WordPress plugin before 1.2.2, Floating Button WordPress plugin before 5.3.1, Herd Effects WordPress plugin before 5.2.2, Popup Box WordPress plugin before 2.2.2, Side Menu Lite WordPress plugin before 4.0.2, Sticky Buttons WordPress plugin before 3.1.1, Wow Skype Buttons WordPress plugin before 4.0.2, WP Coder WordPress plugin before 2.5.6 do not escape the page parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2698, A vulnerability classified as critical was found in SourceCodester Lost and Found Information System 1.0. Affected by this vulnerability is an unknown functionality of the file admin/?page=items/manage_item of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228979.
+
+CVE-2023-2732, The MStore API plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 3.9.2. This is due to insufficient verification on the user being supplied during the add listing REST API request through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the user id.
+
+CVE-2023-2159, The CMP – Coming Soon & Maintenance plugin for WordPress is vulnerable to Maintenance Mode Bypass in versions up to, and including, 4.1.7. A correct cmp_bypass GET parameter in the URL (equal to the md5-hashed home_url in the default setting) allows users to visit a site placed in maintenance mode thus bypassing the plugin's provided feature.
+
+CVE-2023-2509, A Cross-Site Scripting(XSS) vulnerability was found on ADM, LooksGood and SoundsGood Apps. An attacker can exploit this vulnerability to inject malicious scripts into the target applications to access any cookies or sensitive information retained by the browser and used with that application. Affected products and versions include: ADM 4.0.6.REG2, 4.1.0 and below as well as ADM 4.2.1.RGE2 and below, LooksGood 2.0.0.R129 and below and SoundsGood 2.3.0.r1027 and below.
+
+CVE-2023-2620, An issue has been discovered in GitLab CE/EE affecting all versions starting from 15.1 prior to 15.11.10, all versions from 16.0 prior to 16.0.6, all versions from 16.1 prior to 16.1.1. A maintainer could modify a webhook URL to leak masked webhook secrets by manipulating other masked portions. This addresses an incomplete fix for CVE-2023-0838.
+
+CVE-2023-2270, The Netskope client service running with NT\SYSTEM privileges accepts network connections from localhost to start various services and execute commands. The connection handling function of Netskope client before R100 in this service utilized a relative path to download and unzip configuration files on the machine. This relative path provided a way for local users to write arbitrary files at a location which is accessible to only higher privileged users. This can be exploited by local users to execute code with NT\SYSTEM privileges on the end machine.
+
+CVE-2023-2765, A vulnerability has been found in Weaver OA up to 9.5 and classified as problematic. This vulnerability affects unknown code of the file /E-mobile/App/System/File/downfile.php. The manipulation of the argument url leads to absolute path traversal. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-229270 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2335,  Plaintext Password in Registry   vulnerability in 42gears surelock windows surelockwinsetupv2.40.0.Exe on Windows (Registery modules) allows Retrieve   Admin user credentials  This issue affects surelock windows: from 2.3.12 through 2.40.0.
+
+CVE-2023-2909, EZ Sync service fails to adequately handle user input, allowing an attacker to navigate beyond the intended directory structure and delete files. Affected products and versions include: ADM 4.0.6.REG2, 4.1.0 and below as well as ADM 4.2.1.RGE2 and below.
+
+CVE-2023-2266, An Improper neutralization of input during web page generation in the Schweitzer Engineering Laboratories SEL-411L could allow an attacker to generate cross-site scripting based attacks against an authorized and authenticated user.    See product Instruction Manual Appendix A dated 20230830 for more details.
+
+CVE-2023-2636, The AN_GradeBook WordPress plugin through 5.0.1 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by users with a role as low as subscriber
+
+CVE-2023-2323, Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2773, A vulnerability has been found in code-projects Bus Dispatch and Information System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file view_admin.php. The manipulation of the argument adminid leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-229279.
+
+CVE-2023-2289, The wordpress vertical image slider plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘search_term’ parameter in versions up to, and including, 1.2.16 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+CVE-2023-2118, Insufficient access control in support ticket feature in Devolutions Server 2023.1.5.0 and below allows an authenticated attacker to send support tickets and download diagnostic files via specific endpoints.
+
+CVE-2023-2548, The RegistrationMagic plugin for WordPress is vulnerable to Insecure Direct Object References in versions up to, and including, 5.2.0.5. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for authenticated attackers, with administrator-level permissions and above, to change user passwords and potentially take over super-administrator accounts in multisite setup.
+
+CVE-2023-2661, A vulnerability was found in SourceCodester Online Computer and Laptop Store 1.0 and classified as critical. This issue affects some unknown processing of the file /classes/Master.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228803.
+
+CVE-2023-2231, A vulnerability, which was classified as critical, was found in MAXTECH MAX-G866ac 0.4.1_TBRO_20160314. This affects an unknown part of the component Remote Management. The manipulation leads to missing authentication. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227001 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2724, Type confusion in V8 in Google Chrome prior to 113.0.5672.126 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2374, A vulnerability has been found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This vulnerability affects unknown code of the component Web Management Interface. The manipulation of the argument ecn-down leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-227650 is the identifier assigned to this vulnerability.
+
+CVE-2023-2860, An out-of-bounds read vulnerability was found in the SR-IPv6 implementation in the Linux kernel. The flaw exists within the processing of seg6 attributes. The issue results from the improper validation of user-supplied data, which can result in a read past the end of an allocated buffer. This flaw allows a privileged local user to disclose sensitive information on affected installations of the Linux kernel.
+
+CVE-2023-2163, Incorrect verifier pruning in BPF in Linux Kernel >=5.4 leads to unsafe code paths being incorrectly marked as safe, resulting in arbitrary read/write in kernel memory, lateral privilege escalation, and container escape.
+
+CVE-2023-2499, The RegistrationMagic plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.2.1.0. This is due to insufficient verification on the user being supplied during a Google social login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.
+
+CVE-2023-2533, A Cross-Site Request Forgery (CSRF) vulnerability has been identified in PaperCut NG/MF, which, under specific conditions, could potentially enable an attacker to alter security settings or execute arbitrary code. This could be exploited if the target is an admin with a current login session. Exploiting this would typically involve the possibility of deceiving an admin into clicking a specially crafted malicious link, potentially leading to unauthorized changes.
+
+CVE-2023-2026, The Image Protector WordPress plugin through 1.1 does not properly sanitize some of its settings, which could allow high-privilege users to perform Stored Cross-Site Scripting (XSS) attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2476, A vulnerability was found in Dromara J2eeFAST up to 2.6.0. It has been classified as problematic. Affected is an unknown function of the component Announcement Handler. The manipulation of the argument 系统工具/公告管理 leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The name of the patch is 7a9e1a00e3329fdc0ae05f7a8257cce77037134d. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-227868.
+
+CVE-2023-2925, A vulnerability, which was classified as problematic, was found in Webkul krayin crm 1.2.4. This affects an unknown part of the file /admin/contacts/organizations/edit/2 of the component Edit Person Page. The manipulation of the argument Organization leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-230079. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2564, OS Command Injection in GitHub repository sbs20/scanservjs prior to v2.27.0.
+
+CVE-2023-2134, Out of bounds memory access in Service Worker API in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2837, Stack-based Buffer Overflow in GitHub repository gpac/gpac prior to 2.2.2.
+
+CVE-2023-2972, Prototype Pollution in GitHub repository antfu/utils prior to 0.7.3.
+
+CVE-2023-2421, A vulnerability classified as problematic has been found in Control iD RHiD 23.3.19.0. Affected is an unknown function of the file /v2/#/add/department. The manipulation of the argument Name leads to cross site scripting. It is possible to launch the attack remotely. VDB-227718 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2071,  Rockwell Automation FactoryTalk View Machine Edition on the PanelView Plus, improperly verifies user’s input, which allows unauthenticated attacker to achieve remote code executed via crafted malicious packets.  The device has the functionality, through a CIP class, to execute exported functions from libraries.  There is a routine that restricts it to execute specific functions from two dynamic link library files.  By using a CIP class, an attacker can upload a self-made library to the device which allows the attacker to bypass the security check and execute any code written in the function.
+
+CVE-2023-2358,  Hitachi Vantara Pentaho Business Analytics Server prior to versions 9.5.0.0 and 9.3.0.4, including 8.3.x.x, saves passwords of the Hadoop Copy Files step in plaintext.
+
+CVE-2023-2708, The Video Gallery plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘search_term’ parameter in versions up to, and including, 1.0.10 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+CVE-2023-2122, The Image Optimizer by 10web WordPress plugin before 1.0.27 does not sanitise and escape the iowd_tabs_active parameter before rendering it in the plugin admin panel, leading to a reflected Cross-Site Scripting vulnerability, allowing an attacker to trick a logged in admin to execute arbitrary javascript by clicking a link.
+
+CVE-2023-2572, The Survey Maker WordPress plugin before 3.4.7 does not escape some parameters before outputting them back in attributes, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2088, A flaw was found in OpenStack due to an inconsistency between Cinder and Nova. This issue can be triggered intentionally or by accident. A remote, authenticated attacker could exploit this vulnerability by detaching one of their volumes from Cinder. The highest impact is to confidentiality.
+
+CVE-2023-2067, The Announcement & Notification Banner – Bulletin plugin for WordPress is vulnerable to Cross-Site Request Forgery due to a missing nonce validation on the 'bulletinwp_update_bulletin_status', 'bulletinwp_update_bulletin', 'bulletinwp_update_settings', 'bulletinwp_update_status', 'bulletinwp_export_bulletins', and 'bulletinwp_import_bulletins' functions in versions up to, and including, 3.7.0. This makes it possible for unauthenticated attackers to modify the plugin's settings, modify bulletins, create new bulletins, and more, via a forged request granted they can trick a site's user into performing an action such as clicking on a link.
+
+CVE-2023-2437, The UserPro plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.1.1. This is due to insufficient verification on the user being supplied during a Facebook login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email. An attacker can leverage CVE-2023-2448 and CVE-2023-2446 to get the user's email address to successfully exploit this vulnerability.
+
+CVE-2023-2964, The Simple Iframe WordPress plugin before 1.2.0 does not properly validate one of its WordPress block attribute's content, which may allow users whose role is at least that of a contributor to conduct Stored Cross-Site Scripting attacks.
+
+CVE-2023-2876, Sensitive Cookie Without 'HttpOnly' Flag vulnerability in ABB REX640 PCL1 (firmware modules), ABB REX640 PCL2 (Firmware modules), ABB REX640 PCL3 (firmware modules) allows Cross-Site Scripting (XSS).This issue affects REX640 PCL1: from 1.0;0 before 1.0.8; REX640 PCL2: from 1.0;0 before 1.1.4; REX640 PCL3: from 1.0;0 before 1.2.1.
+
+CVE-2023-2899, The Google Map Shortcode WordPress plugin through 3.1.2 does not validate and escape some of its shortcode attributes before outputting them back in the page, which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attacks which could be used against high privilege users such as admin
+
+CVE-2023-2933, Use after free in PDF in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file. (Chromium security severity: High)
+
+CVE-2023-2460, Insufficient validation of untrusted input in Extensions in Google Chrome prior to 113.0.5672.63 allowed an attacker who convinced a user to install a malicious extension to bypass file access checks via a crafted HTML page. (Chromium security severity: Medium)
+
+CVE-2023-2030, An issue has been discovered in GitLab CE/EE affecting all versions from 12.2 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which an attacker could potentially modify the metadata of signed commits.
+
+CVE-2023-2319, It was discovered that an update for PCS package in RHBA-2023:2151 erratum released as part of Red Hat Enterprise Linux 9.2 failed to include the fix for the Webpack issue CVE-2023-28154 (for PCS package), which was previously addressed in Red Hat Enterprise Linux 9.1 via erratum RHSA-2023:1591. The CVE-2023-2319 was assigned to that Red Hat specific security regression in Red Hat Enterprise Linux 9.2.
+
+CVE-2023-2749, Download Center fails to properly validate the file path submitted by a user, An attacker can exploit this vulnerability to gain unauthorized access to sensitive files or directories without appropriate permission restrictions. Download Center on ADM 4.0 and above will be affected. Affected products and versions include: Download Center 1.1.5.r1280 and below.
+
+CVE-2023-2381, A vulnerability has been found in Netgear SRX5308 up to 4.3.5-3 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file scgi-bin/platform.cgi?page=bandwidth_profile.htm of the component Web Management Interface. The manipulation of the argument BandWidthProfile.ProfileName leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227659. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2694, A vulnerability was found in SourceCodester Online Exam System 1.0. It has been classified as critical. This affects an unknown part of the file /dosen/data of the component POST Parameter Handler. The manipulation of the argument columns[1][data] leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228975.
+
+CVE-2023-2047, A vulnerability was found in Campcodes Advanced Online Voting System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file login.php. The manipulation of the argument voter leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-225932.
+
+CVE-2023-2417, A vulnerability was found in ks-soft Advanced Host Monitor up to 12.56 and classified as problematic. Affected by this issue is some unknown functionality of the file C:\Program Files (x86)\HostMonitor\RMA-Win\rma_active.exe. The manipulation leads to unquoted search path. It is possible to launch the attack on the local host. Upgrading to version 12.60 is able to address this issue. It is recommended to upgrade the affected component. VDB-227714 is the identifier assigned to this vulnerability.
+
+CVE-2023-2944, Improper Access Control in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2801, Grafana is an open-source platform for monitoring and observability.   Using public dashboards users can query multiple distinct data sources using mixed queries. However such query has a possibility of crashing a Grafana instance.  The only feature that uses mixed queries at the moment is public dashboards, but it's also possible to cause this by calling the query API directly.  This might enable malicious users to crash Grafana instances through that endpoint.  Users may upgrade to version 9.4.12 and 9.5.3 to receive a fix.
+
+CVE-2023-2102, Cross-site Scripting (XSS) - Stored in GitHub repository alextselegidis/easyappointments prior to 1.5.0.
+
+CVE-2023-2552, Cross-Site Request Forgery (CSRF) in GitHub repository unilogies/bumsys prior to 2.1.1.
+
+CVE-2023-2786, Mattermost fails to properly check the permissions when executing commands allowing a member with no permissions to post a message in a channel to actually post it by executing channel commands.
+
+CVE-2023-2339, Cross-site Scripting (XSS) - Reflected in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2769, A vulnerability classified as critical has been found in SourceCodester Service Provider Management System 1.0. This affects an unknown part of the file /classes/Master.php?f=delete_service. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-229275.
+
+CVE-2023-2293, A vulnerability was found in SourceCodester Purchase Order Management System 1.0. It has been classified as problematic. This affects an unknown part of the file classes/Master.php?f=save_item. The manipulation of the argument description with the input <script>alert(document.cookie)</script> leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227463.
+
+CVE-2023-2913,  An executable used in Rockwell Automation ThinManager ThinServer can be configured to enable an API feature in the HTTPS Server Settings. This feature is disabled by default. When the API is enabled and handling requests, a path traversal vulnerability exists that allows a remote actor to leverage the privileges of the server’s file system and read arbitrary files stored in it. A malicious user could exploit this vulnerability by executing a path that contains manipulating variables.
+
+CVE-2023-2440, The UserPro plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.1.1. This is due to missing nonce validation in the 'admin_page', 'userpro_verify_user' and 'verifyUnverifyAllUsers' functions. This makes it possible for unauthenticated attackers to modify the role of verified users to elevate verified user privileges to that of any user such as 'administrator' via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2010, The Forminator WordPress plugin before 1.24.1 does not use an atomic operation to check whether a user has already voted, and then update that information. This leads to a Race Condition that may allow a single user to vote multiple times on a poll.
+
+CVE-2023-2505,  The affected products have a CSRF vulnerability that could allow an attacker to execute code and upload malicious files.
+
+CVE-2023-2155, A vulnerability was found in SourceCodester Air Cargo Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file classes/Master.php?f=save_cargo_type. The manipulation of the argument name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-226276.
+
+CVE-2023-2856, VMS TCPIPtrace file parser crash in Wireshark 4.0.0 to 4.0.5 and 3.6.0 to 3.6.13 allows denial of service via crafted capture file
+
+CVE-2023-2790, A vulnerability classified as problematic has been found in TOTOLINK N200RE 9.3.5u.6255_B20211224. Affected is an unknown function of the file /squashfs-root/etc_ro/custom.conf of the component Telnet Service. The manipulation leads to password in configuration file. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. VDB-229374 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2285, The WP Activity Log Premium plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 4.5.0. This is due to missing or incorrect nonce validation on the ajax_switch_db function. This makes it possible for unauthenticated attackers to make changes to the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2006, A race condition was found in the Linux kernel's RxRPC network protocol, within the processing of RxRPC bundles. This issue results from the lack of proper locking when performing operations on an object. This may allow an attacker to escalate privileges and execute arbitrary code in the context of the kernel.
+
+CVE-2023-2905, Due to a failure in validating the length of a provided MQTT_CMD_PUBLISH parsed message with a variable length header, Cesanta Mongoose, an embeddable web server, version 7.10 is susceptible to a heap-based buffer overflow vulnerability in the default configuration. Version 7.9 and prior does not appear to be vulnerable. This issue is resolved in version 7.11.
+
+CVE-2023-2840, NULL Pointer Dereference in GitHub repository gpac/gpac prior to 2.2.2.
+
+CVE-2023-2143, The Enable SVG, WebP & ICO Upload WordPress plugin through 1.0.3 does not sanitize SVG file contents, leading to a Cross-Site Scripting vulnerability.
+
+CVE-2023-2513, A use-after-free vulnerability was found in the Linux kernel's ext4 filesystem in the way it handled the extra inode size for extended attributes. This flaw could allow a privileged local user to cause a system crash or other undefined behaviors.
+
+CVE-2023-2397, A vulnerability, which was classified as problematic, has been found in SourceCodester Simple Mobile Comparison Website 1.0. This issue affects some unknown processing of the file classes/Master.php?f=save_field. The manipulation of the argument Field Name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227675.
+
+CVE-2023-2378, A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. It has been rated as critical. Affected by this issue is some unknown functionality of the component Web Management Interface. The manipulation of the argument suffix-rate-up leads to command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-227654 is the identifier assigned to this vulnerability.
+
+CVE-2023-2682, A vulnerability was found in Caton Live up to 2023-04-26 and classified as critical. This issue affects some unknown processing of the file /cgi-bin/ping.cgi of the component Mini_HTTPD. The manipulation of the argument address with the input ;id;uname${IFS}-a leads to command injection. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-228911. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2728, Users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using ephemeral containers. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the `kubernetes.io/enforce-mountable-secrets` annotation are used together with ephemeral containers.
+
+CVE-2023-2952, XRA dissector infinite loop in Wireshark 4.0.0 to 4.0.5 and 3.6.0 to 3.6.13 allows denial of service via packet injection or crafted capture file
+
+CVE-2023-2401, The QuBot WordPress plugin before 1.1.6 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2051, A vulnerability classified as critical has been found in Campcodes Advanced Online Voting System 1.0. Affected is an unknown function of the file /admin/positions_row.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-225936.
+
+CVE-2023-2544, Authorization bypass vulnerability in UPV PEIX, affecting the component "pdf_curri_new.php". Through a POST request, an authenticated user could change the ID parameter to retrieve all the stored information of other registered users.
+
+CVE-2023-2114, The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.
+
+CVE-2023-2817, A post-authentication stored cross-site scripting vulnerability exists in Craft CMS versions <= 4.4.11. HTML, including script tags can be injected into field names which, when the field is added to a category or section, will trigger when users visit the Categories or Entries pages respectively.
+
+CVE-2023-2303, The Contact Form and Calls To Action by vcita plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.6.4. This is due to missing nonce validation in the vcita-callback.php file. This makes it possible for unauthenticated attackers to modify the plugin's settings and inject malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2753, Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.
+
+CVE-2023-2246, A vulnerability has been found in SourceCodester Online Pizza Ordering System 1.0 and classified as critical. This vulnerability affects unknown code of the file admin/ajax.php?action=save_settings. The manipulation of the argument img leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227236.
+
+CVE-2023-2616, Cross-site Scripting (XSS) - Generic in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2495, The Greeklish-permalink WordPress plugin through 3.3 does not implement correct authorization or nonce checks in the cyrtrans_ajax_old AJAX action, allowing unauthenticated and low-privilege users to trigger the plugin's functionality to change Post slugs either directly or through CSRF.
+
+CVE-2023-2883, Authorization Bypass Through User-Controlled Key vulnerability in CBOT Chatbot allows Authentication Abuse, Authentication Bypass.This issue affects Chatbot: before Core: v4.0.3.4 Panel: v4.0.3.7.
+
+CVE-2023-2929, Out of bounds write in Swiftshader in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2180, The KIWIZ Invoices Certification & PDF System WordPress plugin through 2.1.3 does not validate the path of files to be downloaded, which could allow unauthenticated attacker to read/downlaod arbitrary files, as well as perform PHAR unserialization (assuming they can upload a file on the server)
+
+CVE-2023-2704, The BP Social Connect plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.5. This is due to insufficient verification on the user being supplied during a Facebook login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.
+
+CVE-2023-2354, The CHP Ads Block Detector plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings reachable though an AJAX action in versions up to, and including, 3.9.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2641, A vulnerability was found in SourceCodester Online Internship Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file admin/login.php of the component POST Parameter Handler. The manipulation of the argument email leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228770 is the identifier assigned to this vulnerability.
+
+CVE-2023-2211, A vulnerability was found in Campcodes Coffee Shop POS System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/categories/manage_category.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-226976.
+
+CVE-2023-2991, Fortra Globalscape EFT's administration server suffers from an information disclosure vulnerability where the serial number of the harddrive that Globalscape is installed on can be remotely determined via a "trial extension request" message
+
+CVE-2023-2138, Use of Hard-coded Credentials in GitHub repository nuxtlabs/github-module prior to 1.6.2.
+
+CVE-2023-2568, The Photo Gallery by Ays WordPress plugin before 5.1.7 does not escape some parameters before outputting it back in attributes, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+CVE-2023-2092, A vulnerability, which was classified as critical, has been found in SourceCodester Vehicle Service Management System 1.0. Affected by this issue is some unknown functionality of the file view_service.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-226100.
+
+CVE-2023-2587,  Teltonika’s Remote Management System versions prior to 4.10.0 contain a cross-site scripting (XSS) vulnerability in the main page of the web interface. An attacker with the MAC address and serial number of a connected device could send a maliciously crafted JSON file with an HTML object to trigger the vulnerability. This could allow the attacker to execute scripts in the account context and obtain remote code execution on managed devices.
+
+CVE-2023-2342, Cross-site Scripting (XSS) - Reflected in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2712, Unrestricted Upload of File with Dangerous Type vulnerability  in "Rental Module" developed by third-party for Ideasoft's E-commerce Platform allows Command Injection, Using Malicious Files, Upload a Web Shell to a Web Server.This issue affects Rental Module: before 23.05.15.
+
+CVE-2023-2207, A vulnerability classified as critical was found in Campcodes Retro Basketball Shoes Online Store 1.0. This vulnerability affects unknown code of the file contactus1.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-226972.
+
+CVE-2023-2657, A vulnerability classified as problematic was found in SourceCodester Online Computer and Laptop Store 1.0. Affected by this vulnerability is an unknown functionality of the file products.php. The manipulation of the argument search leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228799.
+
+CVE-2023-2084, The Essential Blocks plugin for WordPress is vulnerable to unauthorized use of functionality due to a missing capability check on the get function in versions up to, and including, 4.0.6. This makes it possible for subscriber-level attackers to obtain plugin settings. While a nonce check is present, it is only executed when a nonce is provided. Not providing a nonce results in the nonce verification to be skipped. There is no capability check.
+
+CVE-2023-2987, The Wordapp plugin for WordPress is vulnerable to authorization bypass due to an use of insufficiently unique cryptographic signature on the 'wa_pdx_op_config_set' function in versions up to, and including, 1.5.0. This makes it possible for unauthenticated attackers to the plugin to change the 'validation_token' in the plugin config, providing access to the plugin's remote control functionalities, such as creating an admin access URL, which can be used for privilege escalation.
+
+CVE-2023-2968, A remote attacker can trigger a denial of service in the socket.remoteAddress variable, by sending a crafted HTTP request. Usage of the undefined variable raises a TypeError exception.
+
+CVE-2023-2591, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitHub repository nilsteampassnet/teampass prior to 3.0.7.
+
+CVE-2023-2745, WordPress Core is vulnerable to Directory Traversal in versions up to, and including, 6.2, via the ‘wp_lang’ parameter. This allows unauthenticated attackers to access and load arbitrary translation files. In cases where an attacker is able to upload a crafted translation file onto the site, such as via an upload form, this could be also used to perform a Cross-Site Scripting attack.
+
+CVE-2023-2315, Path Traversal in OpenCart versions 4.0.0.0 to 4.0.2.2 allows an authenticated user with access/modify privilege on the Log component to empty out arbitrary files on the server
+
+CVE-2023-2600, The Custom Base Terms WordPress plugin before 1.0.3 does not sanitize and escape some of its settings, which could allow high-privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+
+CVE-2023-2250, A flaw was found in the Open Cluster Management (OCM) when a user have access to the worker nodes which has the cluster-manager-registration-controller or cluster-manager deployments. A malicious user can take advantage of this and bind the cluster-admin to any service account or using the service account to list all secrets for all kubernetes namespaces, leading into a cluster-level privilege escalation.
+
+CVE-2023-2179, The WooCommerce Order Status Change Notifier WordPress plugin through 1.1.0 does not have authorisation and CSRF when updating status orders via an AJAX action available to any authenticated users, which could allow low privilege users such as subscriber to update arbitrary order status, making them paid without actually paying for them for example
+
+CVE-2023-2529, The Enable SVG Uploads WordPress plugin through 2.1.5 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads.
+
+CVE-2023-2196, A missing permission check in Jenkins Code Dx Plugin 3.1.0 and earlier allows attackers with Item/Read permission to check for the existence of an attacker-specified file path on an agent file system.
+
+CVE-2023-2895, The WP EasyCart plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.4.8. This is due to missing or incorrect nonce validation on the process_bulk_activate_product function. This makes it possible for unauthenticated attackers to bulk activate products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2178, The Aajoda Testimonials WordPress plugin before 2.2.2 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2482, The Responsive CSS EDITOR WordPress plugin through 1.0 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high-privilege users such as admin.
+
+CVE-2023-2528, The Contact Form by Supsystic plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.7.24. This is due to missing or incorrect nonce validation on the AJAX action handler. This makes it possible for unauthenticated attackers to execute AJAX actions via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2197, HashiCorp Vault Enterprise 1.13.0 up to 1.13.1 is vulnerable to a padding oracle attack when using an HSM in conjunction with the CKM_AES_CBC_PAD or CKM_AES_CBC encryption mechanisms. An attacker with privileges to modify storage and restart Vault may be able to intercept or modify cipher text in order to derive Vault’s root key. Fixed in 1.13.2
+
+CVE-2023-2894, The WP EasyCart plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 5.4.8. This is due to missing or incorrect nonce validation on the process_bulk_deactivate_product function. This makes it possible for unauthenticated attackers to bulk deactivate products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+CVE-2023-2744, The ERP WordPress plugin before 1.12.4 does not properly sanitise and escape the `type` parameter in the `erp/v1/accounting/v1/people` REST API endpoint before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
+
+CVE-2023-2314, Insufficient data validation in DevTools in Google Chrome prior to 111.0.5563.64 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Low)
+
+CVE-2023-2601, The wpbrutalai WordPress plugin before 2.0.0 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by admin via CSRF.
+
+CVE-2023-2251, Uncaught Exception in GitHub repository eemeli/yaml prior to 2.0.0-5.
+
+CVE-2023-2085, The Essential Blocks plugin for WordPress is vulnerable to unauthorized use of functionality due to a missing capability check on the templates function in versions up to, and including, 4.0.6. This makes it possible for subscriber-level attackers to obtain plugin template information. While a nonce check is present, it is only executed when a nonce is provided. Not providing a nonce results in the nonce verification to be skipped. There is no capability check.
+
+CVE-2023-2986, The Abandoned Cart Lite for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.14.2. This is due to insufficient encryption on the user being supplied during the abandoned cart link decode through the plugin. This allows unauthenticated attackers to log in as users who have abandoned the cart, who are typically customers. Further security hardening was introduced in version 5.15.1 that ensures sites are no longer vulnerable through historical check-out links, and additional hardening was introduced in version 5.15.2 that ensured null key values wouldn't permit the authentication bypass.
+
+CVE-2023-2590, Missing Authorization in GitHub repository answerdev/answer prior to 1.0.9.
+
+CVE-2023-2343, Cross-site Scripting (XSS) - DOM in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2713, Authorization Bypass Through User-Controlled Key vulnerability  in "Rental Module" developed by third-party for Ideasoft's E-commerce Platform allows Authentication Abuse, Authentication Bypass.This issue affects Rental Module: before 23.05.15.
+
+CVE-2023-2206, A vulnerability classified as critical has been found in Campcodes Retro Basketball Shoes Online Store 1.0. This affects an unknown part of the file contactus.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226971.
+
+CVE-2023-2656, A vulnerability classified as critical has been found in SourceCodester AC Repair and Services System 1.0. Affected is an unknown function of the file /classes/Master.php?f=delete_service. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-228798 is the identifier assigned to this vulnerability.
+
+CVE-2023-2990, Fortra Globalscape EFT versions before 8.1.0.16 suffer from a denial of service vulnerability, where a compressed message that decompresses to itself can cause infinite recursion and crash the service
+
+CVE-2023-2139,  A reflected Cross-site Scripting (XSS) Vulnerability in DELMIA Apriso Release 2017 through Release 2022 allows an attacker to execute arbitrary script code.
+
+CVE-2023-2569,  A CWE-787: Out-of-Bounds Write vulnerability exists that could cause local denial-of-service, elevation of privilege, and potentially kernel execution when a malicious actor with local user access crafts a script/program using an IOCTL call in the Foxboro.sys driver.
+
+CVE-2023-2093, A vulnerability, which was classified as critical, was found in SourceCodester Vehicle Service Management System 1.0. This affects an unknown part of the file /classes/Login.php. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226101 was assigned to this vulnerability.
+
+CVE-2023-2586,  Teltonika’s Remote Management System versions 4.14.0 is vulnerable to an unauthorized attacker registering previously unregistered devices through the RMS platform. If the user has not disabled the "RMS management feature" enabled by default, then an attacker could register that device to themselves. This could enable the attacker to perform different operations on the user's devices, including remote code execution with 'root' privileges (using the 'Task Manager' feature on RMS).
+
+CVE-2023-2705, The gAppointments WordPress plugin before 1.10.0 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against admin
+
+CVE-2023-2355, Local privilege escalation due to a DLL hijacking vulnerability. The following products are affected: Acronis Snap Deploy (Windows) before build 3900.
+
+CVE-2023-2640, On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
+
+CVE-2023-2210, A vulnerability has been found in Campcodes Coffee Shop POS System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/categories/view_category.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226975.
+
+CVE-2023-2494, The Go Pricing - WordPress Responsive Pricing Tables plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'process_postdata' function in versions up to, and including, 3.3.19. This makes it possible for authenticated attackers with a role that the administrator previously granted access to the plugin to modify access to the plugin when it should only be the administrator's privilege.
+
+CVE-2023-2882, Generation of Incorrect Security Tokens vulnerability in CBOT Chatbot allows Token Impersonation, Privilege Abuse.This issue affects Chatbot: before Core: v4.0.3.4 Panel: v4.0.3.7.
+
+CVE-2023-2928, A vulnerability was found in DedeCMS up to 5.7.106. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file uploads/dede/article_allowurl_edit.php. The manipulation of the argument allurls leads to code injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-230083.
+
+CVE-2023-2181, An issue has been discovered in GitLab affecting all versions before 15.9.8, 15.10.0 before 15.10.7, and 15.11.0 before 15.11.3. A malicious developer could use a git feature called refs/replace to smuggle content into a merge request which would not be visible during review in the UI.
+
+CVE-2023-2302, The Contact Form and Calls To Action by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'email' parameter in versions up to, and including, 2.6.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with the edit_posts capability, such as contributors and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2752, Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.
+
+CVE-2023-2247, In affected versions of Octopus Deploy it is possible to unmask variable secrets using the variable preview function
+
+CVE-2023-2617, A vulnerability classified as problematic was found in OpenCV wechat_qrcode Module up to 4.7.0. Affected by this vulnerability is the function DecodedBitStreamParser::decodeByteSegment of the file qrcode/decoder/decoded_bit_stream_parser.cpp. The manipulation leads to null pointer dereference. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-228547.
+
+CVE-2023-2953, A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.
+
+CVE-2023-2400, Improper deletion of resource in the user management feature in Devolutions Server 2023.1.8  and earlier allows an administrator to view users vaults of deleted users via database access.
+
+CVE-2023-2050, A vulnerability was found in Campcodes Advanced Online Voting System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/positions_add.php. The manipulation of the argument description leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-225935.
+
+CVE-2023-2545, The Feather Login Page plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'getListOfUsers' function in versions starting from 1.0.7 up to, and including, 1.1.1. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to access the login links, which can be used for privilege escalation.
+
+CVE-2023-2816, Consul and Consul Enterprise allowed any user with service:write permissions to use Envoy extensions configured via service-defaults to patch remote proxy instances that target the configured service, regardless of whether the user has permission to modify the service(s) corresponding to those modified proxies.
+
+CVE-2023-2396, A vulnerability classified as problematic was found in Netgear SRX5308 up to 4.3.5-3. This vulnerability affects unknown code of the component Web Management Interface. The manipulation of the argument USERDBUsers.Password leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-227674 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2379, A vulnerability classified as critical has been found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. This affects an unknown part of the component Web Service. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227655.
+
+CVE-2023-2683,  A memory leak in the EFR32 Bluetooth LE stack 5.1.0 through 5.1.1 allows an attacker to send an invalid pairing message and cause future legitimate connection attempts to fail. A reset of the device immediately clears the error.
+
+CVE-2023-2729, Use of insufficiently random values vulnerability in User Management Functionality in Synology DiskStation Manager (DSM) before 7.2-64561 allows remote attackers to obtain user credential via unspecified vectors.
+
+CVE-2023-2007, The specific flaw exists within the DPT I2O Controller driver. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the kernel.
+
+CVE-2023-2457, Out of bounds write in ChromeOS Audio Server in Google Chrome on ChromeOS prior to 113.0.5672.114 allowed a remote attacker to potentially exploit heap corruption via crafted audio file. (Chromium security severity: High)
+
+CVE-2023-2904, The External Visitor Manager portal of HID’s SAFE versions 5.8.0 through 5.11.3 are vulnerable to manipulation within web fields in the application programmable interface (API). An attacker could log in using account credentials available through a request generated by an internal user and then manipulate the visitor-id within the web API to access the personal data of other users. There is no limit on the number of requests that can be made to the HID SAFE Web Server, so an attacker could also exploit this vulnerability to create a denial-of-service condition.
+
+CVE-2023-2841, The Advanced Local Pickup for WooCommerce plugin for WordPress is vulnerable to time-based SQL Injection via the id parameter in versions up to, and including, 1.5.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers with admin-level privileges to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+CVE-2023-2512, Prior to version v1.20230419.0, the FormData API implementation was subject to an integer overflow. If a FormData instance contained more than 2^31 elements, the forEach() method could end up reading from the wrong location in memory while iterating over elements. This would most likely lead to a segmentation fault, but could theoretically allow arbitrary undefined behavior.   In order for the bug to be exploitable, the process would need to be able to allocate 160GB of RAM. Due to this, the bug was never exploitable on the Cloudflare Workers platform, but could theoretically be exploitable on deployments of workerd running on machines with a huge amount of memory. Moreover, in order to be remotely exploited, an attacker would have to upload a single form-encoded HTTP request of at least tens of gigabytes in size. The application code would then have to use request.formData() to parse the request and formData.forEach() to iterate over this data. Due to these limitations, the exploitation likelihood was considered Low.  A fix that addresses this vulnerability has been released in version v1.20230419.0 and users are encouraged to update to the latest version available.
+
+CVE-2023-2791, When creating a playbook run via the /dialog API, Mattermost fails to validate all parameters, allowing an authenticated attacker to edit an arbitrary channel post.
+
+CVE-2023-2284, The WP Activity Log Premium plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_switch_db function in versions up to, and including, 4.5.0. This makes it possible for authenticated attackers with subscriber-level or higher to make changes to the plugin's settings.
+
+CVE-2023-2912, Use After Free vulnerability in Secomea SiteManager Embedded allows Obstruction.
+
+CVE-2023-2504,      Files present on firmware images could allow an attacker to gain unauthorized access as a root user using hard-coded credentials.
+
+CVE-2023-2154, A vulnerability was found in SourceCodester Task Reminder System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/?page=reminders/view_reminder. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226275.
+
+CVE-2023-2857, BLF file parser crash in Wireshark 4.0.0 to 4.0.5 and 3.6.0 to 3.6.13 allows denial of service via crafted capture file
+
+CVE-2023-2787, Mattermost fails to check channel membership when accessing message threads, allowing an attacker to access arbitrary posts by using the message threads API.
+
+CVE-2023-2338, SQL Injection in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2768, A vulnerability was found in Sucms 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file admin_ads.php?action=add. The manipulation of the argument intro leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-229274 is the identifier assigned to this vulnerability.
+
+CVE-2023-2046, Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Yontem Informatics Vehicle Tracking System allows SQL Injection.This issue affects Vehicle Tracking System: before 8.
+
+CVE-2023-2416, The Online Booking & Scheduling Calendar for WordPress by vcita plugin for WordPress is vulnerable to Cross-Site Request Forgery due to a missing nonce check on the vcita_logout_callback function in versions up to, and including, 4.2.10. This makes it possible for unauthenticated to logout a vctia connected account which would cause a denial of service on the appointment scheduler, via a forged request granted they can trick a site user into performing an action such as clicking on a link.
+
+CVE-2023-2945, Missing Authorization in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2800, Insecure Temporary File in GitHub repository huggingface/transformers prior to 4.30.0.
+
+CVE-2023-2103, Cross-site Scripting (XSS) - Stored in GitHub repository alextselegidis/easyappointments prior to 1.5.0.
+
+CVE-2023-2553, Cross-site Scripting (XSS) - Stored in GitHub repository unilogies/bumsys prior to 2.2.0.
+
+CVE-2023-2380, A vulnerability, which was classified as problematic, was found in Netgear SRX5308 up to 4.3.5-3. Affected is an unknown function. The manipulation leads to denial of service. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-227658 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2695, A vulnerability was found in SourceCodester Online Exam System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /kelas/data of the component POST Parameter Handler. The manipulation of the argument columns[1][data] leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-228976.
+
+CVE-2023-2318, DOM-based XSS in src/muya/lib/contentState/pasteCtrl.js in MarkText 0.17.1 and before on Windows, Linux and macOS allows arbitrary JavaScript code to run in the context of MarkText main window. This vulnerability can be exploited if a user copies text from a malicious webpage and paste it into MarkText.
+
+CVE-2023-2524, A vulnerability classified as critical has been found in Control iD RHiD 23.3.19.0. This affects an unknown part of the file /v2/#/. The manipulation leads to direct request. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-228015. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2174, The BadgeOS plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the delete_badgeos_log_entries function in versions up to, and including, 3.7.1.6. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to delete the plugin's log entries.
+
+CVE-2023-2877, The Formidable Forms WordPress plugin before 6.3.1 does not adequately authorize the user or validate the plugin URL in its functionality for installing add-ons. This allows a user with a role as low as Subscriber to install and activate arbitrary plugins of arbitrary versions from the WordPress.org plugin repository onto the site, leading to Remote Code Execution.
+
+CVE-2023-2898, There is a null-pointer-dereference flaw found in f2fs_write_end_io in fs/f2fs/data.c in the Linux kernel. This flaw allows a local privileged user to cause a denial of service problem.
+
+CVE-2023-2932, Use after free in PDF in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file. (Chromium security severity: High)
+
+CVE-2023-2461, Use after free in OS Inputs in Google Chrome on ChromeOS prior to 113.0.5672.63 allowed a remote attacker who convinced a user to enage in specific UI interaction to potentially exploit heap corruption via crafted UI interaction. (Chromium security severity: Medium)
+
+CVE-2023-2031, The Locatoraid Store Locator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's shortcode(s) in versions up to, and including, 3.9.14 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2820, An information disclosure vulnerability in the faye endpoint in Proofpoint Threat Response / Threat Response Auto-Pull (PTR/TRAP) could be used by an attacker on an adjacent network to obtain credentials to integrated services via a man-in-the-middle position or cryptanalysis of the session traffic. An attacker could use these credentials to impersonate PTR/TRAP to these services. All versions prior to 5.10.0 are affected.
+
+CVE-2023-2123, The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
+
+CVE-2023-2573, Advantech EKI-1524, EKI-1522, EKI-1521 devices through 1.21 are affected by an command injection vulnerability in the NTP server input field, which can be triggered by authenticated users via a crafted POST request.
+
+CVE-2023-2089, A vulnerability was found in SourceCodester Complaint Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/userprofile.php of the component GET Parameter Handler. The manipulation of the argument uid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-226097 was assigned to this vulnerability.
+
+CVE-2023-2066, The Announcement & Notification Banner – Bulletin plugin for WordPress is vulnerable to unauthorized access and modification of data due to a missing capability check on the  'bulletinwp_update_bulletin_status', 'bulletinwp_update_bulletin', 'bulletinwp_update_settings', 'bulletinwp_update_status', 'bulletinwp_export_bulletins', and 'bulletinwp_import_bulletins' functions functions in versions up to, and including, 3.6.0. This makes it possible for authenticated attackers with subscriber-level access, and above, to modify the plugin's settings, modify bulletins, create new bulletins, and more.
+
+CVE-2023-2436, The Blog-in-Blog plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'blog_in_blog' shortcode in versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with editor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2359, The Slider Revolution WordPress plugin through 6.6.12 does not check for valid image files upon import, leading to an arbitrary file upload which may be escalated to Remote Code Execution in some server configurations.
+
+CVE-2023-2709, The AN_GradeBook WordPress plugin through 5.0.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+
+CVE-2023-2565, A vulnerability has been found in SourceCodester Multi Language Hotel Management Software 1.0 and classified as problematic. This vulnerability affects unknown code of the file ajax.php of the component POST Parameter Handler. The manipulation of the argument complaint_type with the input <script>alert(document.cookie)</script> leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-228172.
+
+CVE-2023-2135, Use after free in DevTools in Google Chrome prior to 112.0.5615.137 allowed a remote attacker who convinced a user to enable specific preconditions to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2836, The CRM Perks Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via form settings in versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+
+CVE-2023-2973, A vulnerability, which was classified as problematic, has been found in SourceCodester Students Online Internship Timesheet Syste 1.0. Affected by this issue is some unknown functionality of the file /ajax.php?action=save_company. The manipulation of the argument name with the input <script>alert(document.cookie)</script> leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-230204.
+
+CVE-2023-2420, A vulnerability was found in MLECMS 3.0. It has been rated as critical. This issue affects the function get_url in the library /upload/inc/lib/admin of the file upload\inc\include\common.func.php. The manipulation of the argument $_SERVER['REQUEST_URI'] leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227717 was assigned to this vulnerability.
+
+CVE-2023-2861, A flaw was found in the 9p passthrough filesystem (9pfs) implementation in QEMU. The 9pfs server did not prohibit opening special files on the host side, potentially allowing a malicious client to escape from the exported 9p tree by creating and opening a device file in the shared folder.
+
+CVE-2023-2162, A use-after-free vulnerability was found in iscsi_sw_tcp_session_create in drivers/scsi/iscsi_tcp.c in SCSI sub-component in the Linux Kernel. In this flaw an attacker could leak kernel internal information.
+
+CVE-2023-2498, The Go Pricing - WordPress Responsive Pricing Tables plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 3.3.19 due to insufficient input sanitization and output escaping. This makes it possible for contributor-level attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+CVE-2023-2027, The ZM Ajax Login & Register plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.2. This is due to insufficient verification on the user being supplied during a Facebook login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
+
+CVE-2023-2477, A vulnerability was found in Funadmin up to 3.2.3. It has been declared as problematic. Affected by this vulnerability is the function tagLoad of the file Cx.php. The manipulation of the argument file leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227869 was assigned to this vulnerability.
+
+CVE-2023-2924, A vulnerability, which was classified as critical, has been found in Supcon SimField up to 1.80.00.00. Affected by this issue is some unknown functionality of the file /admin/reportupload.aspx. The manipulation of the argument files[] leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-230078 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2660, A vulnerability has been found in SourceCodester Online Computer and Laptop Store 1.0 and classified as critical. This vulnerability affects unknown code of the file view_categories.php. The manipulation of the argument c leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-228802 is the identifier assigned to this vulnerability.
+
+CVE-2023-2725, Use after free in Guest View in Google Chrome prior to 113.0.5672.126 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2375, A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This issue affects some unknown processing of the component Web Management Interface. The manipulation of the argument src leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227651.
+
+CVE-2023-2119, The Responsive Filterable Portfolio plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the search_term parameter in versions up to, and including, 1.0.19 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+CVE-2023-2549, The Feather Login Page plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions starting from 1.0.7 up to, and including, 1.1.1. This is due to missing nonce validation in the 'createTempAccountLink' function. This makes it possible for unauthenticated attackers to create a new user with administrator role via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. An attacker can leverage CVE-2023-2545 to get the login link or request a password reset to the new user's email address.
+
+CVE-2023-2267, An Improper Input Validation vulnerability in Schweitzer Engineering Laboratories SEL-411L could allow an attacker to perform reflection attacks against an authorized and authenticated user.    See product Instruction Manual Appendix A dated 20230830 for more details.
+
+CVE-2023-2637,  Rockwell Automation's FactoryTalk System Services uses a hard-coded cryptographic key to generate administrator cookies.  Hard-coded cryptographic key may lead to privilege escalation.  This vulnerability may allow a local, authenticated non-admin user to generate an invalid administrator cookie giving them administrative privileges to the FactoryTalk Policy Manger database. This may allow the threat actor to make malicious changes to the database that will be deployed when a legitimate FactoryTalk Policy Manager user deploys a security policy model. User interaction is required for this vulnerability to be successfully exploited.
+
+CVE-2023-2322, Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 10.5.21.
+
+CVE-2023-2772, A vulnerability, which was classified as critical, was found in SourceCodester Budget and Expense Tracker System 1.0. Affected is an unknown function of the file /admin/budget/manage_budget.php of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-229278 is the identifier assigned to this vulnerability.
+
+CVE-2023-2288, The Otter WordPress plugin before 2.2.6 does not sanitize some user-controlled file paths before performing file operations on them. This leads to a PHAR deserialization vulnerability on PHP < 8.0 using the phar:// stream wrapper.
+
+CVE-2023-2908, A null pointer dereference issue was found in Libtiff's tif_dir.c file. This issue may allow an attacker to pass a crafted TIFF image file to the tiffcp utility which triggers a runtime error that causes undefined behavior. This will result in an application crash, eventually leading to a denial of service.
+
+CVE-2023-2621,  The McFeeder server (distributed as part of SSW package), is susceptible to an arbitrary file write vulnerability on the MAIN computer system. This vulnerability stems from the use of an outdated version of a third-party library, which is used to extract archives uploaded to McFeeder server. An authenticated malicious client can exploit this vulnerability by uploading a crafted ZIP archive via the network to McFeeder’s service endpoint.
+
+CVE-2023-2271, The Tiempo.com WordPress plugin through 0.1.2 does not have CSRF check when deleting its shortcode, which could allow attackers to make logged in admins delete arbitrary shortcode via a CSRF attack
+
+CVE-2023-2764, The Draw Attention plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_set_featured_image function in versions up to, and including, 2.0.11. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to change the featured image of arbitrary posts with an image that exists in the media library.
+
+CVE-2023-2158, Code Dx versions prior to 2023.4.2 are vulnerable to user impersonation attack where a malicious actor is able to gain access to another user's account by crafting a custom "Remember Me" token. This is possible due to the use of a hard-coded cipher which was used when generating the token. A malicious actor who creates this token can supply it to a separate Code Dx system, provided they know the username they want to impersonate, and impersonate the user.  Score 6.7 CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C
+
+CVE-2023-2508, The `PaperCutNG Mobility Print` version 1.0.3512 application allows an  unauthenticated attacker to perform a CSRF attack on an instance  administrator to configure the clients host (in the "configure printer  discovery" section). This is possible because the application has no  protections against CSRF attacks, like Anti-CSRF tokens, header origin  validation, samesite cookies, etc.
+
+CVE-2023-2226, Due to insufficient validation in the PE and OLE parsers in Rapid7's Velociraptor versions earlier than 0.6.8 allows attacker to crash Velociraptor during parsing of maliciously malformed files.   For this attack to succeed, the attacker needs to be able to introduce malicious files to the system at the same time that Velociraptor attempts to collect any artifacts that attempt to parse PE files, Authenticode signatures, or OLE files. After crashing, the Velociraptor service will restart and it will still be possible to collect other artifacts.
+
+CVE-2023-2676, A vulnerability, which was classified as critical, has been found in H3C R160 V1004004. Affected by this issue is some unknown functionality of the file /goForm/aspForm. The manipulation of the argument go leads to stack-based buffer overflow. The exploit has been disclosed to the public and may be used. VDB-228890 is the identifier assigned to this vulnerability.
+
+CVE-2023-2363, A vulnerability, which was classified as critical, has been found in SourceCodester Resort Reservation System 1.0. This issue affects some unknown processing of the file view_room.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227639.
+
+CVE-2023-2699, A vulnerability, which was classified as critical, has been found in SourceCodester Lost and Found Information System 1.0. Affected by this issue is some unknown functionality of the file admin/?page=items/view_item of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-228980.
+
+CVE-2023-2733, The MStore API plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 3.9.0. This is due to insufficient verification on the user being supplied during the coupon redemption REST API request through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the user id.
+
+CVE-2023-2949, Cross-site Scripting (XSS) - Reflected in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2462, Inappropriate implementation in Prompts in Google Chrome prior to 113.0.5672.63 allowed a remote attacker to obfuscate main origin data via a crafted HTML page. (Chromium security severity: Medium)
+
+CVE-2023-2198, An issue has been discovered in GitLab CE/EE affecting all versions starting from 8.7 before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. A Regular Expression Denial of Service was possible via sending crafted payloads to the preview_markdown endpoint.
+
+CVE-2023-2032, The Custom 404 Pro WordPress plugin before 3.8.1 does not properly sanitize database inputs, leading to multiple SQL Injection vulnerabilities.
+
+CVE-2023-2931, Use after free in PDF in Google Chrome prior to 114.0.5735.90 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file. (Chromium security severity: High)
+
+CVE-2023-2874, A vulnerability, which was classified as problematic, has been found in Twister Antivirus 8. This issue affects the function 0x804f2158/0x804f2154/0x804f2150/0x804f215c/0x804f2160/0x80800040/0x804f214c/0x804f2148/0x804f2144/0x801120e4/0x804f213c/0x804f2140 in the library filppd.sys of the component IoControlCode Handler. The manipulation leads to denial of service. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The identifier VDB-229853 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+CVE-2023-2527, The Integration for Contact Form 7 and Zoho CRM, Bigin WordPress plugin before 1.2.4 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin
+
+CVE-2023-2177, A null pointer dereference issue was found in the sctp network protocol in net/sctp/stream_sched.c in Linux Kernel. If stream_in allocation is failed, stream_out is freed which would further be accessed. A local user could use this flaw to crash the system or potentially cause a denial of service.
+
+CVE-2023-2659, A vulnerability, which was classified as critical, was found in SourceCodester Online Computer and Laptop Store 1.0. This affects an unknown part of the file view_product.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-228801 was assigned to this vulnerability.
+
+CVE-2023-2209, A vulnerability, which was classified as critical, was found in Campcodes Coffee Shop POS System 1.0. Affected is an unknown function of the file /admin/sales/view_details.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-226974 is the identifier assigned to this vulnerability.
+
+CVE-2023-2065, Authorization Bypass Through User-Controlled Key vulnerability in Armoli Technology Cargo Tracking System allows Authentication Abuse, Authentication Bypass.This issue affects Cargo Tracking System: before 3558f28 .
+
+CVE-2023-2435, The Blog-in-Blog plugin for WordPress is vulnerable to Local File Inclusion in versions up to, and including, 1.1.1 via a shortcode attribute. This allows editor-level, and above, attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+
+CVE-2023-2120, The Thumbnail carousel slider plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the search_term parameter in versions up to, and including, 1.1.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+CVE-2023-2570,    A CWE-129: Improper Validation of Array Index vulnerability exists that could cause local denial-of-service, and potentially kernel execution when a malicious actor with local user access crafts a script/program using an unpredictable index to an IOCTL call in the Foxboro.sys driver.
+
+CVE-2023-2823, A vulnerability was found in SourceCodester Class Scheduling System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/edit_subject.php of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-229597 was assigned to this vulnerability.
+
+CVE-2023-2989, Fortra Globalscape EFT versions before 8.1.0.16 suffer from an out of bounds memory read in their administration server, which can allow an attacker to crash the service or bypass authentication if successfully exploited
+
+CVE-2023-2423,  A vulnerability was discovered in the Rockwell Automation Armor PowerFlex device when the product sends communications to the local event log. Threat actors could exploit this vulnerability by sending an influx of network commands, causing the product to generate an influx of event log traffic at a high rate. If exploited, the product would stop normal operations and self-reset creating a denial-of-service condition. The error code would need to be cleared prior to resuming normal operations.
+
+CVE-2023-2073, A vulnerability was found in Campcodes Online Traffic Offense Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /classes/Login.php. The manipulation of the argument password leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226051.
+
+CVE-2023-2589, An issue has been discovered in GitLab EE affecting all versions starting from 12.0 before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. An attacker can clone a repository from a public project, from a disallowed IP, even after the top-level group has enabled IP restrictions on the group.
+
+CVE-2023-2970, A vulnerability classified as problematic was found in MindSpore 2.0.0-alpha/2.0.0-rc1. This vulnerability affects the function JsonHelper::UpdateArray of the file mindspore/ccsrc/minddata/dataset/util/json_helper.cc. The manipulation leads to memory corruption. The name of the patch is 30f4729ea2c01e1ed437ba92a81e2fc098d608a9. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-230176.
+
+CVE-2023-2835, The WP Directory Kit plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'search' parameter in versions up to, and including, 1.2.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+CVE-2023-2566, Cross-site Scripting (XSS) - Stored in GitHub repository openemr/openemr prior to 7.0.1.
+
+CVE-2023-2136, Integer overflow in Skia in Google Chrome prior to 112.0.5615.137 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)
+
+CVE-2023-2618, A vulnerability, which was classified as problematic, has been found in OpenCV wechat_qrcode Module up to 4.7.0. Affected by this issue is the function DecodedBitStreamParser::decodeHanziSegment of the file qrcode/decoder/decoded_bit_stream_parser.cpp. The manipulation leads to memory leak. The attack may be launched remotely. The name of the patch is 2b62ff6181163eea029ed1cab11363b4996e9cd6. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-228548.
+
+CVE-2023-2927, A vulnerability was found in JIZHICMS 2.4.5. It has been classified as critical. Affected is the function index of the file TemplateController.php. The manipulation of the argument webapi leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-230082 is the identifier assigned to this vulnerability.
+
+CVE-2023-2024, Improper authentication in OpenBlue Enterprise Manager Data Collector versions prior to 3.2.5.75 allow access to an unauthorized user under certain circumstances.
+
+CVE-2023-2474, A vulnerability has been found in Rebuild 3.2 and classified as problematic. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. It is recommended to change the configuration settings. VDB-227866 is the identifier assigned to this vulnerability.
+
+CVE-2023-2161,  A CWE-611: Improper Restriction of XML External Entity Reference vulnerability exists that could cause unauthorized read access to the file system when a malicious configuration file is loaded on to the software by a local user.
+
+CVE-2023-2531, Improper Restriction of Excessive Authentication Attempts in GitHub repository azuracast/azuracast prior to 0.18.3.
+
+CVE-2023-2862, A vulnerability, which was classified as problematic, was found in SiteServer CMS up to 7.2.1. Affected is an unknown function of the file /api/stl/actions/search. The manipulation of the argument ajaxDivId leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. It is recommended to apply a patch to fix this issue. VDB-229818 is the identifier assigned to this vulnerability.
+
+CVE-2023-2726, Inappropriate implementation in WebApp Installs in Google Chrome prior to 113.0.5672.126 allowed an attacker who convinced a user to install a malicious web app to bypass install dialog via a crafted HTML page. (Chromium security severity: Medium)
+
+CVE-2023-2376, A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. It has been classified as critical. Affected is an unknown function of the component Web Management Interface. The manipulation of the argument dpi leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227652.
+
+CVE-2023-2663,  In Xpdf 4.04 (and earlier), a PDF object loop in the page label tree leads to infinite recursion and a stack overflow.
+

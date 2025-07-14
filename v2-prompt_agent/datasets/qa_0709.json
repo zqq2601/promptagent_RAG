@@ -1,0 +1,304 @@
+{
+  "examples": [
+    {
+      "input": "Question: What is the purpose of implementing a Guest Wireless Network in a corporate environment?\nOptions:\nA. To provide unrestricted access to company resources\nB. To replace the primary corporate wireless network\nC. To bypass network security protocols\nD. To offer a separate, secure network for visitors\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is a typical indicator that an Intrusion Detection System (IDS) or Intrusion Prevention System (IPS) might identify as a network attack?\nOptions:\nA. Anomalies or strange behaviors in network traffic.\nB. Unauthorized software installation.\nC. Frequent system reboots.\nD. Regular updates to firewall rules.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: What is a security concern associated with Software as a Service (SaaS)?\nOptions:\nA. High costs associated with software licensing.\nB. Consolidation of information with a single provider leading to potential data leaks.\nC. The inability to customize software according to business needs.\nD. The need for constant hardware upgrades.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the role of physical controls in a comprehensive security plan?\nOptions:\nA. To solely manage digital threats such as viruses and malware.\nB. To provide aesthetic enhancements to the security infrastructure.\nC. To act as the primary defense against internal threats only.\nD. To protect against physical access and breaches, complementing technical and administrative controls.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which feature should be enabled to hide the name of a wireless network, making it less visible to unauthorized users?\nOptions:\nA. SSID Broadcast\nB. Enabling Firewall\nC. MAC Address Filtering\nD. Disabling DHCP\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Which of the following best describes administrative controls in computer systems security?\nOptions:\nA. Controls that are implemented after a security incident to recover and restore organization's operations.\nB. Controls that involve the use of technology to protect data and to control access to data.\nC. Controls that include policies and procedures that are implemented to manage the conduct of personnel.\nD. Controls that involve physical measures to prevent unauthorized access to facilities, equipment, and resources.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Which of the following is an example of a physical control in computer systems security?\nOptions:\nA. Firewalls and antivirus software.\nB. Employee background checks.\nC. Data encryption techniques.\nD. Biometric access control systems.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In the context of privilege management, what is the principle of least privilege?\nOptions:\nA. Assigning privileges based on seniority in the organization.\nB. Granting users the maximum permissions possible.\nC. Granting users only the permissions necessary to perform their job functions.\nD. Providing all users with administrative privileges for convenience.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is a potential indicator of session hijacking in web applications?\nOptions:\nA. Anomalies in session cookies, such as unexpected changes or use.\nB. Detection of unauthorized network devices.\nC. Unexplained fluctuations in network bandwidth.\nD. Rapid increase in server memory usage.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Which of the following is an essential component for securing a network against unauthorized access?\nOptions:\nA. Using a single, complex password for all devices.\nB. Implementing network access control (NAC) systems.\nC. Avoiding the use of encryption to simplify network management.\nD. Disabling all wireless connections.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the role of Kerberos in authentication?\nOptions:\nA. It provides a decentralized authentication model.\nB. It encrypts data transmission over a network.\nC. It is primarily used for data encryption.\nD. It uses time-based tickets for authenticating client-server connections.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In the context of web applications, how are HTTP sessions used for authorization?\nOptions:\nA. They provide a secure channel for data transmission.\nB. They are mainly used for encrypting data.\nC. They are not related to authorization.\nD. They use cookies to control access to resources.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following best describes the role of the OWASP Top 10 in enhancing organizational security?\nOptions:\nA. It serves as a legal framework for data protection in the European Union.\nB. It offers a comprehensive set of security protocols for web servers.\nC. It is a government-mandated standard for all organizations in the USA.\nD. It provides a list of the top 10 security vulnerabilities in software applications.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: For a suspected data breach involving sensitive customer information, which of the following data sources would be most critical for the investigation?\nOptions:\nA. Marketing campaign data\nB. Data encryption protocols\nC. Application logs\nD. Firewall configuration files\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is a primary security concern associated with 'Broken Access Control'?\nOptions:\nA. Slower performance of the system due to access checks.\nB. Unauthorized users gaining access to sensitive data.\nC. Increased network traffic due to frequent access requests.\nD. Users being unable to access necessary resources.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a scenario where an SOC supports a web application on self-hosted machines, what initial step might a malicious actor take to exfiltrate data?\nOptions:\nA. Try to physically access the server hosting the web application.\nB. Send phishing emails to the application's users.\nC. Immediately launch a denial-of-service attack.\nD. Test the application for SQL injection vulnerabilities.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following best describes a risk assessment in the context of cybersecurity?\nOptions:\nA. A process to identify and quantify financial losses due to cyber incidents.\nB. A technical procedure to fix vulnerabilities in a network.\nC. A legal requirement that all organizations must follow to avoid penalties.\nD. A process to determine the potential impact of identified cybersecurity threats.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following is a common indicator of an SQL injection attack?\nOptions:\nA. Frequent changes in user account permissions.\nB. Decreased performance of endpoint protection systems.\nC. Unusually high data upload rates to a web server.\nD. Sudden uptick in SQL queries, far beyond the usual baseline for the application.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is 'plaintext' in cryptographic terms?\nOptions:\nA. Unencrypted information, data that is in clear form.\nB. The algorithm used for encrypting data.\nC. Data after it has been encrypted.\nD. The process of transforming data into an encrypted format.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: What is the significance of encryption in protecting sensitive data?\nOptions:\nA. It is only used for data in transit, not data at rest.\nB. It makes data storage more efficient.\nC. It is an optional enhancement for organizations with extra resources.\nD. It converts sensitive data into a format that is unreadable without a decryption key, providing a layer of security.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is a key security concern with 'Insecure Design'?\nOptions:\nA. Reduced system performance due to security features.\nB. The system being susceptible to a wide range of attacks.\nC. High costs associated with implementing security measures.\nD. Difficulty in maintaining and updating the system.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the primary purpose of authentication in security design?\nOptions:\nA. To grant all users unrestricted access to resources.\nB. To monitor and log the activities of users within the system.\nC. To confirm an individual's identity through a specific process.\nD. To determine the cost-effectiveness of security measures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Why are processes important in incident response planning?\nOptions:\nA. They provide a framework for regular security audits\nB. They are primarily used for training new security personnel\nC. They outline a sequence of actions for addressing various types of incidents\nD. They focus on the technical aspects of system recovery\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: To secure data transmission from mobile devices, which of the following should be implemented?\nOptions:\nA. Disabling all forms of data encryption.\nB. Usage of public Wi-Fi networks for all business communications.\nC. Unencrypted email services for ease of access.\nD. VPN connections for secure data transmission.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: How do physical controls contribute to an organization's security?\nOptions:\nA. By focusing exclusively on employee behavior and compliance.\nB. By impacting the overall security through measures like door locks and surveillance cameras.\nC. By replacing the need for technical security measures such as firewalls.\nD. By solely managing network security and data encryption.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is a common indicator of a Man-in-the-Middle (MitM) attack?\nOptions:\nA. Rapid depletion of endpoint device battery.\nB. Consistent use of outdated software versions.\nC. Frequent password reset requests from users.\nD. Unexplained data discrepancies between sent and received messages.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When implementing a secure mobile solution for a corporate environment, what is an essential security measure?\nOptions:\nA. Installing games and social media apps on business devices.\nB. Enforcing strong password policies on devices.\nC. Encouraging the use of public Wi-Fi for business transactions.\nD. Disabling all security features for easier access.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which indicator would likely suggest an intrusion attempt on a network application?\nOptions:\nA. Regular updates to application software.\nB. Regular data backups.\nC. High availability of server resources.\nD. Alerts from IDS/IPS systems for known exploits, like SQL injection patterns.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is the primary purpose of having a well-defined incident response policy in an organization?\nOptions:\nA. To serve as legal documentation\nB. To provide a step-by-step technical recovery plan\nC. To ensure compliance with international standards\nD. To define roles and responsibilities during an incident\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following is the most effective strategy for securing API keys used in cloud environments?\nOptions:\nA. Storing API keys in plaintext within application code.\nB. Using a secure vault service for storing and managing API keys.\nC. Sharing API keys over email with team members.\nD. Hard-coding API keys into mobile applications.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "examples": [
+    {
+    "input": "Question: Which emerging vulnerability class combines Rowhammer bit-flips with memory deduplication to bypass kernel address space layout randomization (KASLR) in cloud container environments?\nOptions:\nA. RAMBleed++\nB. SMAP-escape\nC. Drammer\nD. CrossTalk\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "target": "C"
+  },
+  {
+    "input": "Question: When analyzing APT campaigns using MITRE's CALDERA framework, which adversarial emulation technique best simulates process hollowing with TLS beaconing through domain fronting?\nOptions:\nA. SIDEWINDER plugin\nB. MANTAUCHER module\nC. THORIUM injector\nD. BYOBU payload\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "target": "B"
+  },
+  {
+    "input": "Question: In formal verification of smart contracts in China, which ZKP system enables efficient recursive composition of proofs for state transitions in zk-rollups while maintaining succinct verification?\nOptions:\nA. PLONK with universal setup\nB. STARKs with FRI\nC. Bulletproofs with inner-product arguments\nD. Halo2 with lookup tables\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "target": "D"
+  },
+  {
+      "input": "Question: Which of the following is the most effective strategy for securing API keys used in cloud environments?\nOptions:\nA. Storing API keys in plaintext within application code.\nB. Using a secure vault service for storing and managing API keys.\nC. Sharing API keys over email with team members.\nD. Hard-coding API keys into mobile applications.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: How is a 'chain of trust' established in PKI?\nOptions:\nA. By users manually trusting each certificate.\nB. Via intermediate CAs signing certificates issued by root CAs.\nC. Using symmetric encryption for certificate validation.\nD. Through a single root CA signing all certificates.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+    "input": "Question: Which novel memory corruption technique exploits use-after-free vulnerabilities in JavaScript engines through precise garbage collector timing manipulation?\nOptions:\nA. GcMalloc\nB. Heap Feng Shui\nC. V8 Turbofan poisoning\nD. SpiderMonkey JIT spraying\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "target": "B"
+  },
+    {
+      "input": "Question: In the context of security assessments, what is the main purpose of conducting a 'red team' exercise?\nOptions:\nA. To test physical security measures\nB. To ensure compliance with legal and regulatory standards\nC. To evaluate the effectiveness of security awareness training\nD. To perform a comprehensive penetration test simulating real-world attackers\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is the primary security benefit of implementing HTTPS instead of HTTP for a website?\nOptions:\nA. HTTPS increases the website's loading speed.\nB. HTTPS allows for larger amounts of data to be transferred.\nC. HTTPS is more compatible with modern web browsers.\nD. HTTPS encrypts the data transmitted between the server and the client, providing confidentiality and integrity.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In the context of secure network architecture concepts, how does implementing subnetting enhance network security?\nOptions:\nA. By increasing the speed of data transfer within the network.\nB. By reducing the size of broadcast domains and segmenting the network into smaller, more controllable sections.\nC. By encrypting data transferred between different subnets.\nD. By centralizing all network management tasks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a high-security facility, why are Faraday cages sometimes used as a physical security control?\nOptions:\nA. To detect hidden electronic devices.\nB. To enhance the physical strength of the security perimeter.\nC. To protect against electromagnetic interference and prevent unauthorized wireless communication from secured areas.\nD. To provide a secure area for storing sensitive documents.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In a scenario where an attacker uses a seemingly benign application to execute unauthorized commands or code within another application, what type of application attack is being employed?\nOptions:\nA. Cross-Site Scripting (XSS)\nB. Remote Code Execution (RCE)\nC. Local File Inclusion (LFI)\nD. Cross-Site Request Forgery (CSRF)\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the significance of implementing network segmentation in secure network design?\nOptions:\nA. It solely focuses on reducing operational costs.\nB. It eliminates the need for firewalls and other security measures.\nC. It is primarily used for aesthetic purposes in network design.\nD. It enhances security by dividing the network into smaller, more manageable sections, isolating potential security breaches.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When using a Security Information and Event Management (SIEM) system in organizational security assessment, what key functionality does it provide?\nOptions:\nA. It serves as the primary storage for all organizational data.\nB. It replaces the need for manual security analysis.\nC. It aggregates and analyzes security-related events and logs from multiple sources, providing comprehensive security insight.\nD. It acts solely as a firewall to block malicious traffic.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the significance of chain of custody in digital forensics?\nOptions:\nA. It refers to the chronological documentation of software updates.\nB. It is a process that tracks and documents the handling of digital evidence, ensuring its integrity and admissibility in legal proceedings.\nC. It ensures that digital evidence is only handled by IT staff.\nD. It is used for inventory management of digital assets.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the importance of adhering to applicable regulations, standards, or frameworks in organizational security?\nOptions:\nA. They allow the organization to avoid investing in security technologies.\nB. They are only necessary for multinational corporations.\nC. They provide a structured approach to implementing security measures, ensuring compliance and enhancing the overall security posture.\nD. They are solely for financial auditing purposes.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: When implementing identity and account management controls, what is the primary security advantage of using time-based access controls?\nOptions:\nA. They ensure that user access rights are automatically updated.\nB. They restrict user access to specific times, reducing the opportunity for unauthorized access outside of these periods.\nC. They are easier to manage compared to other access control methods.\nD. They provide users with unlimited access to resources, enhancing productivity.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which threat actor is typically motivated by political objectives and often targets government organizations?\nOptions:\nA. Hacktivists\nB. Script kiddies\nC. Organized crime groups\nD. Corporate spies\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Which of the following best describes a scenario where a network intrusion detection system (NIDS) consistently triggers alerts for abnormal traffic patterns on port 80, mainly from external IP addresses?\nOptions:\nA. Network eavesdropping\nB. A Distributed Denial of Service (DDoS) attack\nC. A Man-in-the-Middle (MitM) attack\nD. An Advanced Persistent Threat (APT)\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In digital forensics, what is the importance of acquiring an image of a storage device as part of the evidence collection process?\nOptions:\nA. It provides a visual representation of the device for reporting purposes.\nB. It is faster than analyzing the device directly.\nC. It creates an exact byte-for-byte copy of the device, allowing analysis without altering the original evidence.\nD. It is only necessary for devices with large storage capacities.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary purpose of employing 'white box' testing methods in security assessments?\nOptions:\nA. To check compliance with external regulations\nB. To test the system with full knowledge of its internal workings\nC. To evaluate physical security measures\nD. To simulate an uninformed external attacker\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which of the following best describes a key security concern with embedded systems, such as those used in industrial control systems?\nOptions:\nA. They have user-friendly interfaces that make them easy to secure.\nB. They are often based on proprietary technologies that are less understood by attackers.\nC. They are usually not connected to the internet, making them immune to cyber attacks.\nD. They typically have limited processing power and memory, restricting the implementation of robust security measures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is a primary advantage of implementing compensating controls in an organizational security strategy?\nOptions:\nA. They focus solely on physical security measures.\nB. They provide an alternative means of meeting compliance objectives when primary controls are not feasible.\nC. They are less expensive than primary controls.\nD. They eliminate the need for primary security controls.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a network attack scenario where an attacker gains unauthorized access to a network by exploiting vulnerabilities in the wireless authentication process, this attack is best categorized as:\nOptions:\nA. Eavesdropping\nB. Wireless Hijacking\nC. Rogue Access Point\nD. Evil Twin Attack\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: When implementing secure mobile solutions in a corporate environment, what is a key security measure to protect against data leakage on mobile devices?\nOptions:\nA. Limiting mobile device usage to senior management only.\nB. Avoiding the use of mobile devices for any corporate activities.\nC. Ensuring all mobile devices use the same operating system for uniformity.\nD. Implementing Mobile Device Management (MDM) solutions to control and secure data on employee mobile devices.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In cloud computing, what is a key security benefit of using a hybrid cloud model?\nOptions:\nA. It ensures 100% uptime due to the use of multiple cloud service providers.\nB. It completely eliminates the need for physical data centers.\nC. It reduces costs by completely outsourcing security to the cloud service provider.\nD. It offers increased scalability and flexibility by combining public and private cloud environments, allowing sensitive data to be kept on-premises while leveraging public cloud resources for less sensitive tasks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When implementing secure application development practices, why is code obfuscation not relied upon as a primary security measure?\nOptions:\nA. It can make the codebase less maintainable and more prone to errors.\nB. It is primarily a technique for protecting intellectual property, not for security.\nC. It only provides a false sense of security and can be reversed by determined attackers.\nD. It significantly slows down the application performance.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary purpose of authentication in security design?\nOptions:\nA. To grant all users unrestricted access to resources.\nB. To monitor and log the activities of users within the system.\nC. To confirm an individual's identity through a specific process.\nD. To determine the cost-effectiveness of security measures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+  {
+      "input": "Question: What is the significance of encryption in protecting sensitive data?\nOptions:\nA. It is only used for data in transit, not data at rest.\nB. It makes data storage more efficient.\nC. It is an optional enhancement for organizations with extra resources.\nD. It converts sensitive data into a format that is unreadable without a decryption key, providing a layer of security.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+  {
+      "input": "Question: What is a security concern associated with Software as a Service (SaaS)?\nOptions:\nA. High costs associated with software licensing.\nB. Consolidation of information with a single provider leading to potential data leaks.\nC. The inability to customize software according to business needs.\nD. The need for constant hardware upgrades.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+  {
+    "input": "Question: In 2025 a post-quantum blockchain consensus mechanism, which cryptographic primitive is theoretically vulnerable to Shor's algorithm even when using lattice-based homomorphic encryption?\nOptions:\nA. zk-SNARKs with pairing-friendly curves\nB. AES-256 in OFB mode\nC. SHA-3 with sponge construction\nD. BLS signatures over supersingular curves\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "target": "D"
+  },
+  {
+    "input": "Question: When implementing memory-safe mitigations for RISC-V speculative execution vulnerabilities, which hardware/software co-design approach best prevents transient execution attacks while maintaining branch prediction efficiency?\nOptions:\nA. Shadow stacks with pointer authentication\nB. Speculative load hardening (SLH)\nC. CET with IBRS microcode updates\nD. Memory tagging via MTE extensions\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "target": "B"
+  },
+  {
+    "input": "Question: In differential privacy applied to federated learning, which composition theorem should be used when combining (ε, δ)-differentially private mechanisms with adaptive query selection across non-IID client data partitions?\nOptions:\nA. Advanced composition with Gaussian noise\nB. Basic sequential composition\nC. Rényi differential privacy composition\nD. Moment accountant with privacy amplification\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "target": "D"
+  },
+  {
+    "input": "Question: Which novel attack vector exploits transient execution vulnerabilities in WebAssembly sandboxed environments through shared memory timing side-channels?\nOptions:\nA. Spectre-RELOAD\nB. Meltdown-WASI\nC. ZombieLoad 2.0\nD. PortSmash-JIT\nAnswer:",
+    "target_scores": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "target": "A"
+  },
+  {
+    "input": "Question: For secure enclave remote attestation in confidential computing, which TEE implementation requires the use of ratcheting session keys with forward secrecy when establishing a continuous attestation channel?\nOptions:\nA. Intel SGX DCAP\nB. AMD SEV-SNP\nC. ARM CCA Realms\nD. AWS Nitro Enclaves\nAnswer:",
+    "target_scores": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "target": "C"
+  }
+  ]
+}
