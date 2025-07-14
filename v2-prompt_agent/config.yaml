@@ -1,0 +1,24 @@
+# 全局配置示例
+model:
+  type: openai
+  #name: qwen2.5-32b-instruct
+  name: gpt-3.5-turbo-0125
+  api_key: sk-6iitQXWCbLHOXDgt80794c9339B546719c4eFcB675378b61
+  base_url: https://twohornedcarp.com/v1
+
+mcts:
+  iterations: 10          # MCTS 迭代次数
+  expand_width: 2         # 每个节点拓展分支数
+  depth_limit: 3          # 搜索深度上限
+  exploration_weight: 1.41
+
+task:
+  data_path: D:/A-project/prompt/v2-prompt_agent/datasets/qa_v7.json
+  kb_dict:                        
+    Relevant knowledge: D:/A-project/prompt/v2-prompt_agent/datasets/kb.txt 
+    Vulnerability description: D:/A-project/prompt/v2-prompt_agent/datasets/cve.txt 
+  kb_topk: 1 
+  eval_size: 1           # 用于优化评估的样本数
+  test_size: 2          # 最终准确率对比的样本数
+  init_prompt: |
+    Please read the following security question carefully. Choose only one correct answer from A, B, C, or D, Just give your final choice as a single letter.

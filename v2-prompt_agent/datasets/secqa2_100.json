@@ -1,0 +1,1004 @@
+{
+  "examples": [
+    {
+      "input": "Question: In the context of security assessments, what is the main purpose of conducting a 'red team' exercise?\nOptions:\nA. To test physical security measures\nB. To ensure compliance with legal and regulatory standards\nC. To evaluate the effectiveness of security awareness training\nD. To perform a comprehensive penetration test simulating real-world attackers\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is the primary security benefit of implementing HTTPS instead of HTTP for a website?\nOptions:\nA. HTTPS increases the website's loading speed.\nB. HTTPS allows for larger amounts of data to be transferred.\nC. HTTPS is more compatible with modern web browsers.\nD. HTTPS encrypts the data transmitted between the server and the client, providing confidentiality and integrity.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In the context of secure network architecture concepts, how does implementing subnetting enhance network security?\nOptions:\nA. By increasing the speed of data transfer within the network.\nB. By reducing the size of broadcast domains and segmenting the network into smaller, more controllable sections.\nC. By encrypting data transferred between different subnets.\nD. By centralizing all network management tasks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a high-security facility, why are Faraday cages sometimes used as a physical security control?\nOptions:\nA. To detect hidden electronic devices.\nB. To enhance the physical strength of the security perimeter.\nC. To protect against electromagnetic interference and prevent unauthorized wireless communication from secured areas.\nD. To provide a secure area for storing sensitive documents.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In a scenario where an attacker uses a seemingly benign application to execute unauthorized commands or code within another application, what type of application attack is being employed?\nOptions:\nA. Cross-Site Scripting (XSS)\nB. Remote Code Execution (RCE)\nC. Local File Inclusion (LFI)\nD. Cross-Site Request Forgery (CSRF)\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the significance of implementing network segmentation in secure network design?\nOptions:\nA. It solely focuses on reducing operational costs.\nB. It eliminates the need for firewalls and other security measures.\nC. It is primarily used for aesthetic purposes in network design.\nD. It enhances security by dividing the network into smaller, more manageable sections, isolating potential security breaches.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When using a Security Information and Event Management (SIEM) system in organizational security assessment, what key functionality does it provide?\nOptions:\nA. It serves as the primary storage for all organizational data.\nB. It replaces the need for manual security analysis.\nC. It aggregates and analyzes security-related events and logs from multiple sources, providing comprehensive security insight.\nD. It acts solely as a firewall to block malicious traffic.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the significance of chain of custody in digital forensics?\nOptions:\nA. It refers to the chronological documentation of software updates.\nB. It is a process that tracks and documents the handling of digital evidence, ensuring its integrity and admissibility in legal proceedings.\nC. It ensures that digital evidence is only handled by IT staff.\nD. It is used for inventory management of digital assets.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the importance of adhering to applicable regulations, standards, or frameworks in organizational security?\nOptions:\nA. They allow the organization to avoid investing in security technologies.\nB. They are only necessary for multinational corporations.\nC. They provide a structured approach to implementing security measures, ensuring compliance and enhancing the overall security posture.\nD. They are solely for financial auditing purposes.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: When implementing identity and account management controls, what is the primary security advantage of using time-based access controls?\nOptions:\nA. They ensure that user access rights are automatically updated.\nB. They restrict user access to specific times, reducing the opportunity for unauthorized access outside of these periods.\nC. They are easier to manage compared to other access control methods.\nD. They provide users with unlimited access to resources, enhancing productivity.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which threat actor is typically motivated by political objectives and often targets government organizations?\nOptions:\nA. Hacktivists\nB. Script kiddies\nC. Organized crime groups\nD. Corporate spies\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Which of the following best describes a scenario where a network intrusion detection system (NIDS) consistently triggers alerts for abnormal traffic patterns on port 80, mainly from external IP addresses?\nOptions:\nA. Network eavesdropping\nB. A Distributed Denial of Service (DDoS) attack\nC. A Man-in-the-Middle (MitM) attack\nD. An Advanced Persistent Threat (APT)\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In digital forensics, what is the importance of acquiring an image of a storage device as part of the evidence collection process?\nOptions:\nA. It provides a visual representation of the device for reporting purposes.\nB. It is faster than analyzing the device directly.\nC. It creates an exact byte-for-byte copy of the device, allowing analysis without altering the original evidence.\nD. It is only necessary for devices with large storage capacities.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary purpose of employing 'white box' testing methods in security assessments?\nOptions:\nA. To check compliance with external regulations\nB. To test the system with full knowledge of its internal workings\nC. To evaluate physical security measures\nD. To simulate an uninformed external attacker\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which of the following best describes a key security concern with embedded systems, such as those used in industrial control systems?\nOptions:\nA. They have user-friendly interfaces that make them easy to secure.\nB. They are often based on proprietary technologies that are less understood by attackers.\nC. They are usually not connected to the internet, making them immune to cyber attacks.\nD. They typically have limited processing power and memory, restricting the implementation of robust security measures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: What is a primary advantage of implementing compensating controls in an organizational security strategy?\nOptions:\nA. They focus solely on physical security measures.\nB. They provide an alternative means of meeting compliance objectives when primary controls are not feasible.\nC. They are less expensive than primary controls.\nD. They eliminate the need for primary security controls.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a network attack scenario where an attacker gains unauthorized access to a network by exploiting vulnerabilities in the wireless authentication process, this attack is best categorized as:\nOptions:\nA. Eavesdropping\nB. Wireless Hijacking\nC. Rogue Access Point\nD. Evil Twin Attack\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: When implementing secure mobile solutions in a corporate environment, what is a key security measure to protect against data leakage on mobile devices?\nOptions:\nA. Limiting mobile device usage to senior management only.\nB. Avoiding the use of mobile devices for any corporate activities.\nC. Ensuring all mobile devices use the same operating system for uniformity.\nD. Implementing Mobile Device Management (MDM) solutions to control and secure data on employee mobile devices.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In cloud computing, what is a key security benefit of using a hybrid cloud model?\nOptions:\nA. It ensures 100% uptime due to the use of multiple cloud service providers.\nB. It completely eliminates the need for physical data centers.\nC. It reduces costs by completely outsourcing security to the cloud service provider.\nD. It offers increased scalability and flexibility by combining public and private cloud environments, allowing sensitive data to be kept on-premises while leveraging public cloud resources for less sensitive tasks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When implementing secure application development practices, why is code obfuscation not relied upon as a primary security measure?\nOptions:\nA. It can make the codebase less maintainable and more prone to errors.\nB. It is primarily a technique for protecting intellectual property, not for security.\nC. It only provides a false sense of security and can be reversed by determined attackers.\nD. It significantly slows down the application performance.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary goal of a 'blue team' during a security assessment exercise?\nOptions:\nA. To conduct a forensic analysis post-incident\nB. To perform compliance and regulatory audits\nC. To attack the organization's systems to find vulnerabilities\nD. To defend against simulated attacks and enhance security posture\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When an organization's system unexpectedly executes a payload upon opening a seemingly innocuous email attachment, which type of application attack most likely occurred?\nOptions:\nA. Cross-Site Scripting (XSS)\nB. Remote Code Execution (RCE)\nC. Malware Injection\nD. Buffer Overflow\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: A threat actor that infiltrates a corporate network and remains dormant, silently exfiltrating data over an extended period, is most likely engaged in:\nOptions:\nA. Ransomware deployment\nB. Distributed Denial of Service (DDoS)\nC. Advanced Persistent Threat (APT)\nD. Drive-by Download Attack\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: During a cybersecurity investigation, why is log analysis critical?\nOptions:\nA. It provides the only way to track user actions on the network.\nB. It is a regulatory requirement in most industries.\nC. It helps in identifying the source and scope of an incident by providing a record of system and user activities.\nD. It simplifies the overall investigation process.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary security advantage of using role-based access control (RBAC) in identity and account management?\nOptions:\nA. It ensures that users are granted access rights based on their specific roles, minimizing unnecessary access to sensitive information.\nB. It simplifies the process of account creation by automatically assigning the same permissions to all users.\nC. It reduces the need for passwords and other authentication methods.\nD. It allows all users unrestricted access to resources for ease of use.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: What is a primary aspect of digital forensics in a cybersecurity context?\nOptions:\nA. Analyzing digital evidence to uncover the timeline, nature, and perpetrators of a cyber incident.\nB. Focusing on the recovery of deleted files only.\nC. Utilizing digital forensics exclusively for law enforcement purposes.\nD. Relying solely on digital forensics for organizational security.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Why is it important for organizations to have clearly defined security policies?\nOptions:\nA. Because having policies is a legal requirement in all jurisdictions.\nB. To provide guidelines and standards for securing information assets, ensuring consistent and effective security practices.\nC. To ensure that all employees have the same level of technical knowledge.\nD. To focus solely on the technology aspect of security.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the primary difference between preventive and detective controls in an organization's security strategy?\nOptions:\nA. Preventive controls deal with employee training, whereas detective controls deal with technical measures.\nB. Preventive controls are designed to stop security incidents from occurring, while detective controls are aimed at identifying and reacting to incidents after they occur.\nC. Preventive controls are used only in physical security, whereas detective controls are used in cyber security.\nD. Preventive controls are less important than detective controls in an overall security strategy.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Which threat actor is most likely to use sophisticated, multi-phased attacks to infiltrate networks undetected and maintain long-term access?\nOptions:\nA. Insider threats\nB. Advanced Persistent Threats (APTs)\nC. Hacktivists\nD. Organized cybercriminal groups\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Why is it crucial for incident response plans to include defined escalation procedures?\nOptions:\nA. To guarantee faster resolution times for all incidents.\nB. To provide a structured approach for increasing the level of response as the severity or complexity of an incident increases.\nC. To meet insurance policy requirements.\nD. To ensure that incidents are always reported to law enforcement.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In an enterprise environment, why is the concept of \"least privilege\" critical for maintaining security?\nOptions:\nA. It guarantees data integrity by providing all users with equal access rights.\nB. It reduces the potential damage from a security breach by limiting access rights for users to the bare minimum necessary to perform their work.\nC. It simplifies user management and security protocols.\nD. It ensures maximum resource utilization.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is a primary security benefit of using cryptographic hashing functions in data protection?\nOptions:\nA. They enable two-way encryption and decryption of sensitive data.\nB. They allow for unlimited data storage securely.\nC. They simplify the user authentication process.\nD. They ensure data integrity by creating a unique digital fingerprint of data.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In the context of threat intelligence sources, which of the following options best aligns with 'open-source intelligence' (OSINT) used for cybersecurity purposes?\nOptions:\nA. Internal security audit logs\nB. Classified government reports\nC. Publicly available information from the internet\nD. Proprietary data from private cybersecurity firms\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Why is it crucial to incorporate security considerations into the early stages of application development?\nOptions:\nA. To reduce the time spent on user training.\nB. Because security cannot be added to an application after it has been developed.\nC. To more effectively identify and mitigate potential security vulnerabilities, reducing risks and costs associated with later-stage fixes.\nD. To comply with marketing strategies.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: An organization notices an unusual increase in database read operations, alongside irregular network traffic from foreign IP addresses. Which type of network attack does this scenario most likely represent?\nOptions:\nA. SQL Injection\nB. ARP Poisoning\nC. Exfiltration over alternative protocol\nD. DNS Tunneling\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is the primary security concern in a 'Bring Your Own Device' (BYOD) policy in an enterprise setting?\nOptions:\nA. The potential for increased productivity\nB. The difficulty in enforcing standard operating environments\nC. The risk of company data being stored on personal devices that might not have adequate security controls\nD. The challenge of integrating different device types\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Why is it crucial for organizations to understand and comply with data privacy regulations like GDPR and CCPA?\nOptions:\nA. Solely to avoid financial penalties.\nB. To ensure that the organization's marketing strategies are effective.\nC. These regulations only apply to organizations in the technology sector.\nD. To protect individuals' privacy rights, ensure lawful processing of personal data, and maintain consumer trust.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Why is it important for incident response plans to include procedures for preserving digital evidence?\nOptions:\nA. To increase the storage capacity of digital systems.\nB. To create backups of all organizational data.\nC. To ensure that the evidence remains intact and admissible in any potential legal proceedings.\nD. To facilitate the repair of affected systems.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Why are regulations like the General Data Protection Regulation (GDPR) important for organizational security posture?\nOptions:\nA. They provide a framework for organizations to prioritize their marketing strategies.\nB. They are only guidelines and have no real impact on an organization's security posture.\nC. They outline mandatory security practices and data protection standards that organizations must follow, influencing their security strategies.\nD. They focus exclusively on the financial aspects of security breaches.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In the context of organizational security, what is the primary benefit of conducting regular penetration testing?\nOptions:\nA. To fulfill a mandatory regulatory compliance requirement.\nB. To test the physical security of the organization's premises.\nC. To assess the organization's readiness for a network upgrade.\nD. To identify and address vulnerabilities in the system before they can be exploited by attackers.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: During a cybersecurity incident, what is a primary objective of applying mitigation techniques?\nOptions:\nA. To immediately address and reduce the impact of the incident, preventing further damage.\nB. To document the incident for future reference only.\nC. To delegate incident handling to an external agency.\nD. To analyze the root cause of the incident in detail.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In the implementation of public key infrastructure (PKI), what role does the Certificate Authority (CA) play?\nOptions:\nA. It encrypts data using the organization’s private key.\nB. It issues and manages digital certificates, verifying the identity of certificate holders.\nC. It acts as the central data storage for the organization.\nD. It is responsible for distributing public keys to users.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: During a penetration test, discovering that encrypted data can be decrypted without the corresponding key due to a flaw in the encryption algorithm exemplifies:\nOptions:\nA. Inadequate key management\nB. Poor network security\nC. Cryptographic failure\nD. Misconfigured access controls\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In a scenario where an attacker manipulates an organization's DNS records to redirect users to a malicious website, what type of network attack is this?\nOptions:\nA. Distributed Denial of Service (DDoS)\nB. DNS Spoofing\nC. Man-in-the-Middle (MitM)\nD. ARP Poisoning\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: During a penetration test, if a tester identifies a vulnerability allowing unauthorized access to a system's memory, what type of attack is this vulnerability most susceptible to?\nOptions:\nA. Buffer Overflow\nB. SQL Injection\nC. Phishing\nD. Social Engineering\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: When installing and configuring wireless security settings, why is WPA3 considered more secure than WPA2?\nOptions:\nA. It provides stronger encryption methods and enhanced protections against brute-force attacks.\nB. It is compatible with a wider range of devices.\nC. It requires less computational power, thus saving energy.\nD. It offers faster connection speeds.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In a cloud computing environment, what is a primary security concern when utilizing a multi-tenant architecture?\nOptions:\nA. The increased complexity of cloud management for the service provider.\nB. The risk of data leakage between tenants due to shared infrastructure and resources.\nC. The potential for resource contention leading to reduced performance.\nD. The higher cost compared to single-tenant architectures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a scenario where an organization implements Multi-Factor Authentication (MFA), which of the following best describes the security benefit of this implementation?\nOptions:\nA. MFA simplifies user access by reducing the number of required passwords.\nB. MFA is used to monitor user activities and prevent data exfiltration.\nC. MFA primarily focuses on improving network speed.\nD. MFA enhances security by requiring multiple forms of verification, making unauthorized access more difficult.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: When configuring wireless security settings in an enterprise, why is disabling SSID (Service Set Identifier) broadcasting recommended?\nOptions:\nA. To enhance the speed of the wireless connection.\nB. To prevent unauthorized users from easily detecting and attempting to join the network.\nC. To comply with international wireless communication standards.\nD. To improve the wireless network's range.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: A company implements biometric authentication as part of its multi-factor authentication (MFA) strategy. What security concept does this best illustrate?\nOptions:\nA. Something you are\nB. Single sign-on\nC. Role-based access control\nD. Least privilege\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In an application attack context, if an organization's web application logs show repeated attempts to access database information via URL parameters, which application attack is most likely being attempted?\nOptions:\nA. Buffer Overflow\nB. Cross-Site Request Forgery (CSRF)\nC. SQL Injection\nD. Directory Traversal\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: How does the implementation of privacy controls in an organization impact its security posture?\nOptions:\nA. It enhances the protection of sensitive personal data, contributing to overall security and compliance.\nB. It limits the organization’s ability to collect data.\nC. It is only relevant for organizations in the healthcare sector.\nD. It primarily ensures the organization’s website is GDPR compliant.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In the context of authentication and authorization design, what is the purpose of implementing a Single Sign-On (SSO) solution?\nOptions:\nA. To provide a backup authentication method in case primary credentials are compromised.\nB. To store all user credentials in a single, centralized database for easy management.\nC. To decentralize user management across various systems.\nD. To streamline user access to multiple applications with one set of credentials, improving user experience and potentially enhancing security.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: How does virtualization contribute to enhancing security in cloud computing environments?\nOptions:\nA. By allowing unlimited data storage, thereby reducing the risk of data loss.\nB. By simplifying network infrastructure, making it easier to manage.\nC. By encrypting all data stored in virtual environments.\nD. By isolating different operating systems and applications, reducing the risk of cross-contamination.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which vulnerability is most likely to be exploited in a scenario where an attacker manipulates an organization's employees into divulging confidential information without realizing the security implications?\nOptions:\nA. Outdated antivirus software\nB. Human psychological vulnerabilities\nC. Unencrypted data transmission\nD. Technical vulnerabilities in network infrastructure\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a case where an organization's web server is compromised due to outdated software, this incident primarily illustrates which type of vulnerability?\nOptions:\nA. Physical security breach\nB. Social engineering\nC. Unpatched software vulnerability\nD. Network configuration error\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: During penetration testing, what is indicated by a scenario where an attacker gains elevated privileges through a vulnerability in an application's user authentication process?\nOptions:\nA. Cross-Site Scripting (XSS)\nB. Privilege Escalation\nC. Session Hijacking\nD. SQL Injection\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In an embedded system used for industrial control, what is a primary security concern when these systems are interconnected with corporate IT networks?\nOptions:\nA. The increased complexity of the IT network can slow down production processes.\nB. Interconnectivity can expose industrial systems to vulnerabilities and threats prevalent in corporate IT environments.\nC. Higher costs due to the need for specialized networking equipment.\nD. The need for additional training for IT staff to manage industrial systems.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In the context of secure application development, what is the primary purpose of implementing automated security testing tools?\nOptions:\nA. To identify and rectify security vulnerabilities early in the development cycle.\nB. To monitor network traffic for potential application layer attacks.\nC. To ensure compliance with regulatory standards.\nD. To replace manual security testing completely.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: What is a significant security implication of embedded and specialized systems, such as IoT devices, in an enterprise environment?\nOptions:\nA. They are less likely to be targeted by attackers compared to traditional computing systems.\nB. They can be easily replaced if compromised.\nC. They are often designed with a focus on functionality over security, making them vulnerable to attacks.\nD. They require less frequent updates and maintenance.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: During a penetration test, what is the primary objective of utilizing a 'black box' testing methodology?\nOptions:\nA. To simulate an attack from an insider with extensive system knowledge\nB. To comply with regulatory standards requiring external audits\nC. To test the system with no prior knowledge of the internal workings\nD. To evaluate the system's response to known vulnerabilities\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In a scenario where an organization's sensitive data is stored in a public cloud service, which cryptographic concept is most crucial to protect data at rest?\nOptions:\nA. Encryption\nB. Digital signatures\nC. Hashing algorithms\nD. Transport Layer Security (TLS)\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In the context of organizational security, what is the primary goal of implementing controls based on risk management processes?\nOptions:\nA. To transfer all risks to insurance providers.\nB. To allocate resources effectively by focusing on the most significant risks to the organization.\nC. To document risks for compliance purposes only.\nD. To ensure that the organization can avoid all risks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: For securing wireless networks in a corporate environment, which technology is most effective in preventing unauthorized access?\nOptions:\nA. WEP encryption\nB. WPA2-Enterprise\nC. MAC address filtering\nD. Open networks with captive portals\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Given a scenario where an organization's employees are receiving emails from a seemingly legitimate source asking for confidential information, but the emails contain slight inconsistencies in domain names, this scenario most likely indicates which type of social engineering attack?\nOptions:\nA. Vishing\nB. Pretexting\nC. Spear Phishing\nD. Tailgating\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: What is a key difference between virtual machines (VMs) and containers in a virtualized environment?\nOptions:\nA. Containers are used for data storage, whereas VMs are used for running applications.\nB. VMs can run multiple operating systems simultaneously, but containers cannot.\nC. Containers are more resource-intensive due to the need for additional security measures.\nD. VMs are more resource-intensive as they include full copies of an operating system, while containers share the host system’s kernel and are lighter.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following social engineering techniques involves an attacker pretending to be a high-level executive to manipulate employees into revealing sensitive information?\nOptions:\nA. Baiting\nB. Phishing\nC. Pretexting\nD. Tailgating\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In an enterprise environment, what is the primary security advantage of using network segmentation?\nOptions:\nA. It simplifies the process of regulatory compliance.\nB. It reduces the overall cost of network management.\nC. It limits the spread of an attack within a network by dividing the network into smaller, more manageable segments.\nD. It enhances network speed and performance.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: Which principle is essential in designing secure authentication and authorization systems?\nOptions:\nA. Role-based access control\nB. Multi-factor authentication\nC. Single sign-on capability\nD. Centralized user management\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In penetration testing, a scenario where an attacker crafts a SQL query to bypass login authentication represents what type of vulnerability exploitation?\nOptions:\nA. SQL Injection\nB. Buffer Overflow\nC. Social Engineering\nD. Cross-Site Scripting (XSS)\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: When conducting a security assessment, what technique involves a comprehensive evaluation and analysis of an organization's information technology infrastructure?\nOptions:\nA. Threat modeling\nB. Vulnerability scanning\nC. Security audit\nD. Penetration testing\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In a secure network architecture, what is the function of a network firewall?\nOptions:\nA. To monitor and control incoming and outgoing network traffic based on predetermined security rules.\nB. To increase the data transfer rate across the network.\nC. To physically protect the network infrastructure from external damage.\nD. To serve as the primary data storage solution.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: When implementing secure protocols in an enterprise network, why is the use of TLS (Transport Layer Security) crucial for data transmission?\nOptions:\nA. It allows for easier routing of data packets across different network segments.\nB. It ensures the integrity and confidentiality of data in transit by providing encryption and authentication.\nC. It reduces the size of data packets, conserving bandwidth.\nD. It enables faster data transfer rates.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: During an incident response, what is the primary purpose of using data from network traffic analysis?\nOptions:\nA. To comply with data retention policies.\nB. To enhance the network's data transfer speed.\nC. To monitor the performance of network hardware.\nD. To identify patterns and anomalies that may indicate the nature and scope of the security incident.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In digital forensics, what is the importance of establishing a timeline of events related to a cybersecurity incident?\nOptions:\nA. To comply with organizational record-keeping policies.\nB. To prioritize the restoration of affected services based on their importance.\nC. It is only necessary for incidents that result in data loss.\nD. To understand the sequence of events that led to the incident, aiding in identifying the cause and potential perpetrators.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In penetration testing, what is the primary purpose of using a 'black box' approach?\nOptions:\nA. To test the system with no prior knowledge of the internal workings, mimicking an external attacker\nB. To focus exclusively on physical security breaches\nC. To simulate an attack from an internal source with full knowledge of the system\nD. To assess the system only through available public information\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: What role does network segmentation play in the mitigation of a cybersecurity incident?\nOptions:\nA. It serves as the only necessary form of network security.\nB. It primarily serves to reduce the cost of network management.\nC. It is used to increase network speeds during an incident.\nD. It limits the spread of the incident within the network by isolating segments, containing the impact.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which of the following threat actors typically conducts cyber attacks for financial gain, often through means such as ransomware or data theft?\nOptions:\nA. State-sponsored hackers\nB. Cyberterrorists\nC. Hacktivists\nD. Cybercriminals\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In incident response, why are documented policies and procedures crucial?\nOptions:\nA. They are only necessary for meeting compliance requirements.\nB. They are primarily used for training new employees.\nC. They offer a standardized and efficient approach for handling security incidents, ensuring consistent and effective response.\nD. They provide legal protection against any security breaches.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: When an attacker uses a compromised third-party script on a website to steal users' session cookies, which application attack is being employed?\nOptions:\nA. Cross-Site Scripting (XSS)\nB. SQL Injection\nC. Cross-Site Request Forgery (CSRF)\nD. Remote Code Execution (RCE)\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In the context of network attacks, what indicator would most likely suggest an ARP spoofing attack?\nOptions:\nA. High volume of outbound SMTP traffic\nB. Multiple MAC addresses associated with a single IP address\nC. Unexpected requests for confidential information\nD. Unusual outbound DNS requests\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In a cloud computing environment, how does the shared responsibility model affect security practices?\nOptions:\nA. The cloud provider is solely responsible for all aspects of security.\nB. The responsibility for security is split between the cloud provider and the client, depending on the service model (IaaS, PaaS, SaaS).\nC. Security responsibilities are outsourced to a third-party service.\nD. The client is solely responsible for all aspects of security.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: What is the primary purpose of implementing an Information Security Management System (ISMS) based on the ISO/IEC 27001 standard?\nOptions:\nA. To automate all security processes in the organization.\nB. To ensure compatibility with all types of information technology systems.\nC. To establish a comprehensive framework for managing an organization's information security risks and ensuring data confidentiality, integrity, and availability.\nD. To eliminate all cybersecurity risks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In risk management, what is the significance of the risk treatment process?\nOptions:\nA. It only documents risks for legal purposes.\nB. It involves identifying the best options for dealing with each identified risk, such as avoiding, mitigating, transferring, or accepting the risk.\nC. It focuses on transferring all risks to insurance companies.\nD. It ensures the complete elimination of all organizational risks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: When designing a secure network architecture, which of the following is a key consideration to prevent single points of failure?\nOptions:\nA. Using redundant network components and paths\nB. Deploying a single, robust firewall\nC. Prioritizing high bandwidth over security\nD. Implementing stateful packet inspection\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In implementing secure protocols, why is SSH preferred over Telnet for remote administration tasks?\nOptions:\nA. SSH is easier to configure and maintain than Telnet.\nB. SSH encrypts the session, preventing unauthorized interception of data, whereas Telnet transmits data in plaintext.\nC. SSH is compatible with more operating systems than Telnet.\nD. SSH transmits data in a more efficient format than Telnet.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In the context of implementing identity and account management controls, which method is most effective for ensuring secure user access in a cloud environment?\nOptions:\nA. Using common security questions for password recovery\nB. Reusing passwords across multiple services\nC. Limiting password length to eight characters\nD. Utilizing multi-factor authentication\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: Which threat actor is primarily motivated by political or social objectives, and may use cyber attacks as a form of protest?\nOptions:\nA. Nation-state actors\nB. Hacktivists\nC. Organized cybercrime groups\nD. Cyberterrorists\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In the context of risk management, what is the purpose of a risk appetite statement?\nOptions:\nA. To transfer all risks to external stakeholders.\nB. To define the level of risk the organization is willing to accept in pursuit of its objectives.\nC. To document the organization’s formal acceptance of all risks.\nD. To ensure that the organization does not encounter any risks.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In the context of PKI (Public Key Infrastructure), what is the primary function of a Certificate Revocation List (CRL)?\nOptions:\nA. To keep a record of all user access activities within the network.\nB. To list all the certificates that a Certificate Authority (CA) has issued.\nC. To store backup copies of all issued certificates.\nD. To maintain a list of digital certificates that have been revoked before their expiration date, indicating they should no longer be trusted.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In cloud computing, what is a key consideration for ensuring security in a SaaS (Software as a Service) deployment model?\nOptions:\nA. Focusing solely on the aesthetics and user interface of the SaaS application.\nB. Prioritizing the physical security of the servers where the software is hosted.\nC. Ensuring strong user authentication and access controls to the SaaS application.\nD. Eliminating the need for internet connectivity to use the SaaS application.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: When a web application unintentionally reveals sensitive information, like database errors, to users, facilitating further attacks, this vulnerability is known as:\nOptions:\nA. Cross-Site Script Inclusion\nB. Information Disclosure\nC. Security Misconfiguration\nD. Insecure Direct Object References\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: Why is understanding and implementing cybersecurity resilience critical in modern enterprise environments?\nOptions:\nA. To ensure uninterrupted service delivery even in the face of security incidents.\nB. To reduce the cost of cybersecurity insurance.\nC. To comply with international cybersecurity standards.\nD. To simplify the cybersecurity audit process.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: When implementing public key infrastructure (PKI) in a large organization, which component is essential for validating the authenticity of digital certificates?\nOptions:\nA. Digital signatures\nB. Certificate revocation lists (CRL)\nC. Firewall\nD. Symmetric key encryption\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "target": "B"
+    },
+    {
+      "input": "Question: In the context of organizational security, what is the primary purpose of risk management processes?\nOptions:\nA. To ensure that the organization never faces any cybersecurity threats.\nB. To transfer all risks to third-party insurance providers.\nC. To identify, assess, and prioritize risks, and to apply resources to minimize, monitor, and control the impact of these risks.\nD. To eliminate all risks associated with digital operations.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "target": "C"
+    },
+    {
+      "input": "Question: In an enterprise environment, how does implementing a Zero Trust security model contribute to overall security?\nOptions:\nA. By never trusting, always verifying every access request, regardless of where the request originates.\nB. By centralizing all data storage.\nC. By using a single authentication method for simplicity.\nD. By trusting all users within the network perimeter, reducing the complexity of security protocols.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Why is understanding privacy and sensitive data concepts crucial for organizational security?\nOptions:\nA. Because it is vital for protecting personal and sensitive information, thus reducing legal risks and maintaining trust.\nB. Because it only applies to organizations in the technology sector.\nC. Because it helps in marketing the organization's products more effectively.\nD. Because it ensures the organization can freely share data with third parties.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: Why is physical security control an important aspect of overall cybersecurity in an organization?\nOptions:\nA. Because it primarily protects against internal threats.\nB. Because it is a requirement for most cybersecurity insurance policies.\nC. Because it is easier to implement than network security.\nD. Because physical access to systems can bypass many cybersecurity measures.\nAnswer:",
+      "target_scores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "target": "D"
+    },
+    {
+      "input": "Question: In a secure network design, what is the primary purpose of implementing a network intrusion detection system (NIDS)?\nOptions:\nA. To monitor network traffic for suspicious activity, alerting administrators to potential security breaches.\nB. To serve as the primary firewall for the network.\nC. To physically secure the network hardware against theft or damage.\nD. To increase the bandwidth and efficiency of network traffic.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    },
+    {
+      "input": "Question: In the context of secure network architecture, what is the primary purpose of implementing a demilitarized zone (DMZ)?\nOptions:\nA. To provide a public-facing segment of the network that is isolated from the internal network, enhancing security.\nB. To increase network speed and efficiency for external users.\nC. To function as a backup for the main network in case of a cyber attack.\nD. To serve as the only network area where encryption is applied.\nAnswer:",
+      "target_scores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "target": "A"
+    }
+  ]
+}
