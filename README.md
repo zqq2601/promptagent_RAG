@@ -1,2 +1,3 @@
 # promptagent_RAG
-补充了RAG功能的基于蒙特卡洛树搜索（MCTS）的提示词优化，参考文章：Wang X, Li C, Wang Z, et al. Promptagent: Strategic planning with language models enables expert-level prompt optimization[J]. arXiv preprint arXiv:2310.16427, 2023.
+promptagent_RAG融合了 RAG 与 MCTS 技术，借助 MCTS 优化提示词与推理路径，以解决LLM在安全领域的知识时效、幻觉及复杂问题处理难题。
+
